@@ -39,7 +39,7 @@
 
 .app-component {
   /* The image used */
-  background-image: url(../src/utils/Assets/images/background.jpg);
+  background-image: url(../src/utils/assets/images/background.jpg);
 
   /* Full height */
   height: 100%; 

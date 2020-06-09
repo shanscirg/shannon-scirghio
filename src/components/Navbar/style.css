@@ -5,7 +5,10 @@
 }
 
 .brand {
-    color: white;
     font-size: 32px;
     font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.navhead {
+    color: #21BBAB;
 }

@@ -8,8 +8,11 @@ export default function NavBar() {
 
     return (
         <>
-            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-                <Navbar.Brand className="brand" href="/About">Shannon Scirghio</Navbar.Brand>
+            <Navbar collapseOnSelect expand="lg" bg="light">
+                <Navbar.Brand className="brand" href="/About">
+                    <h3 className="navhead">Shannon Scirghio</h3>
+                    <h5 className="navhead">Full Stack Web Developer</h5>
+                </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ml-auto">
