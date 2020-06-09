@@ -11,7 +11,7 @@ export default function NavBar() {
             <Navbar collapseOnSelect expand='lg' bg='light' className='navnav'>
                 <Navbar.Brand className='brand' href='/About'>
                     <h3 className='navhead'>Shannon Scirghio</h3>
-                    <h5 className='navhead'>Full Stack Web Developer</h5>
+                    <h6 className='navhead'>Full Stack Web Developer</h6>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls='responsive-navbar-nav' />
                 <Navbar.Collapse id='responsive-navbar-nav'>
