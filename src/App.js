@@ -9,7 +9,7 @@ import Contact from './pages/Contact';
 
 function App() {
   return (
-    <>
+    <div className='app-component'>
       <Navbar />
       <Switch>
         <Route exact path='/About'>
@@ -22,7 +22,7 @@ function App() {
           <Contact />
         </Route>
       </Switch>
-    </>
+    </div>
   );
 }
 
