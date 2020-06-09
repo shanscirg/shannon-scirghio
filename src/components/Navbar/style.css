@@ -1,18 +1,11 @@
 .navbartext{
     margin-right: 20px;
     font-size: 24px;
-    font-family: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif";
-}
-
-nav.navbar{
-    position: fixed;
-    top: 0;
-    z-index: 10;
-    width: 100%;
+    font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 .brand {
     color: white;
     font-size: 32px;
-    font-family: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif";
+    font-family: "Comic Sans MS", cursive, sans-serif;
 }
