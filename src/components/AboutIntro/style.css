@@ -1,3 +1,7 @@
 .about-intro {
     color: darkslategray;
 }
+
+.name:hover {
+    font-size: 32px;
+}

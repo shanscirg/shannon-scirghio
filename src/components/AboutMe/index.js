@@ -20,7 +20,7 @@ export default function AboutMe() {
                     <CardComp
                         header={<h3 className='mx-auto d-block pt-1 header'>What Are My Skills?</h3>}
                         text={<><h5 className='p-1'><strong>Technical:</strong> CSS/Bootstrap, MongoDB/MySQL, JavaScript, including Express.js, Node.js, and React.js</h5>
-                        <h5><strong>Transferable:</strong> Infectiously optimistic, strong work ethic, great communication skills, innovative problem solving, collaborative, organized</h5></>}
+                        <h5><strong>Transferable:</strong> Infectiously optimistic, strong work ethic, great communication skills, collaborative, innovative problem solving, organized</h5></>}
                     >
                     </CardComp>
                 </Col>
