@@ -1,6 +1,6 @@
 .navbartext{
     margin-right: 20px;
-    font-size: 18px;
+    font-size: 20px;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
@@ -13,7 +13,7 @@
 }
 
 .navnav {
-    /* opacity: 0.7; */
+    opacity: 0.9;
     border-bottom: double darkslategrey;
     border-top: double darkslategrey;
 }

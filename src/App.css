@@ -39,7 +39,8 @@
 
 .app-component {
   /* The image used */
-  background-image: url(../src/utils/assets/images/background.jpg);
+  /* background-image: url(../src/utils/assets/images/background.jpg); */
+  background-image: url('https://adammanisblog.files.wordpress.com/2016/04/cropped-free-abstract-background-4-vector.jpg');
 
   /* Full height */
   height: 100%; 
