@@ -1,11 +1,13 @@
 .navbartext{
     margin-right: 20px;
     font-size: 20px;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #18A994;
 }
 
 .brand {
-    font-family: Verdana, Geneva, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .navhead {
@@ -13,7 +15,6 @@
 }
 
 .navnav {
-    opacity: 0.9;
     border-bottom: double darkslategrey;
     border-top: double darkslategrey;
 }

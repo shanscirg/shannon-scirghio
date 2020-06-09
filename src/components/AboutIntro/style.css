@@ -1,7 +1,8 @@
 .about-intro {
     color: darkslategray;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
-
+/* 
 .name:hover {
-    font-size: 32px;
-}
+    font-size: 56px;
+} */
