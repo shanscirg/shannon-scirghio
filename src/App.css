@@ -1,6 +1,6 @@
 body {
   /* The image used */
-  background-image: url(./utils/assets/images/background.jpg);
+  background-image: url(./utils/images/background.jpg);
   /* Full height */
   height: 100vh; 
   background-attachment: fixed;
