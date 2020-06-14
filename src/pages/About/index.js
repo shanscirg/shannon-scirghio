@@ -10,14 +10,14 @@ export default function About() {
         <Container fluid="md">
             <Row className='mt-5 about-row'>
                 <Col xs={12} lg={6}>
-                    <AboutIntro />
+                    <AboutImage />
                 </Col>
                 <Col xs={12} lg={6}>
-                    <AboutImage />
+                    <AboutIntro />
                 </Col>
             </Row>
             <Row>
-                <AboutMe />
+                {/* <AboutMe /> */}
             </Row>
         </Container>
     )

@@ -1,8 +1,19 @@
 .about-intro {
-    color: darkslategray;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    
 }
-/* 
-.name:hover {
-    font-size: 56px;
-} */
+
+.words {
+    font-size: 26px;
+}
+
+
+hr {
+    border: 1px solid white;
+    opacity: 0.5
+}
+
+.intro {
+    padding: 5px;
+}
