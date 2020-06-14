@@ -1,20 +1,23 @@
 import React from 'react';
 import './App.css';
 import { Route, Switch } from 'react-router-dom';
-import Button from './components/Button';
 import NavMenu from './components/Navbar';
 import About from './pages/About';
+import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 
 
 function App() {
   return (
-    <div id="outer-container">
+    <>
       <NavMenu />
       <div id="page-wrap">
         <Switch>
           <Route exact path='/'>
+            <Home />
+          </Route>
+          <Route exact path='/About'>
             <About />
           </Route>
           <Route exact path='/Projects'>
@@ -25,7 +28,7 @@ function App() {
           </Route>
         </Switch>
       </div>
-    </div>
+    </>
   );
 }
 
