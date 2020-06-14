@@ -2,7 +2,6 @@ import React, { useContext, useState } from 'react';
 import { Navbar, Nav, Row, Col, Image, Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './style.css';
-import logo from '../../utils/assets/images/shanlogo.png';
 import { scaleRotate as Menu } from 'react-burger-menu'
 import { MyContext } from '../../utils/Context';
 // import Button from '../Button';
@@ -32,23 +31,4 @@ export default function NavMenu() {
             <a id="contact" className="menu-item" href="/Contact">Contact</a>
         </Menu>
     )
-    // NOTE: You also need to provide styles, see https://github.com/negomi/react-burger-menu#styling
 }
-
-{/* <Navbar collapseOnSelect expand='lg' bg='light' className='navnav'>
-                <Navbar.Brand className='brand' href='/'>
-                    <Image src={logo} style={{ "height": "70px", "width": "70px" }} alt="SS" />
-                </Navbar.Brand>
-                <Navbar.Brand className='brand' href='/'>
-                    <h3 className='navhead'>Shannon Scirghio</h3>
-                    <h6 className='navhead'>Full Stack Web Developer</h6>
-                </Navbar.Brand>
-                <Navbar.Toggle aria-controls='responsive-navbar-nav' />
-                <Navbar.Collapse id='responsive-navbar-nav'>
-                    <Nav className='ml-auto'>
-                        <Link to='/' className='navbartext'>About</Link>
-                        <Link to='/Projects' className='navbartext'>Projects</Link>
-                        <Link to='/Contact' className='navbartext'>Contact</Link>
-                    </Nav>
-                </Navbar.Collapse>
-            </Navbar> */}
