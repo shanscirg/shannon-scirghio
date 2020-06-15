@@ -1,11 +1,18 @@
-import React from 'react';
+import React, { useEffect, useContext } from 'react';
 import AboutImage from '../../components/Image';
 import AboutIntro from '../../components/AboutIntro';
 import { Container, Row, Col } from 'react-bootstrap';
 import ContactMenu from '../../components/ContactMenu';
+import { MyContext } from '../../utils/Context';
 import './style.css';
 
 export default function Home() {
+    const { isMenuOpen, toggleMenu } = useContext(MyContext)
+
+    useEffect(() => {
+        isMenuOpen && toggleMenu();
+    }, []);
+
     return (
         <>
             <Row className='contact-row'>

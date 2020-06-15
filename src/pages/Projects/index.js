@@ -1,7 +1,15 @@
-import React from 'react';
+import React, { useContext, useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import { MyContext } from '../../utils/Context';
 
 export default function Projects() {
+
+    const { isMenuOpen, toggleMenu } = useContext(MyContext)
+
+    useEffect(() => {
+        isMenuOpen && toggleMenu();
+    }, []);
+
     return (
         <Container fluid="md">
             <Row className='mt-5'>

@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import './style.css';
+import { Link } from 'react-router-dom';
 import { scaleRotate as Menu } from 'react-burger-menu'
 import { MyContext } from '../../utils/Context';
 import BurgIcon from '../Hamburger/burgIcon';
@@ -22,10 +23,10 @@ export default function NavMenu() {
             isOpen={ctx.isMenuOpen}
             onStateChange={(state) => ctx.stateChangeHandler(state)}
         >
-            <a id="home" className="menu-item" href="/">Home</a>
-            <a id="about" className="menu-item" href="/About">About</a>
-            <a id="projects" className="menu-item" href="/Projects">Projects</a>
-            <a id="contact" className="menu-item" href="/Contact">Contact</a>
+            <Link id="home" className="menu-item" to="/">Home</Link>
+            <Link id="about" className="menu-item" to="/About">About</Link>
+            <Link id="projects" className="menu-item" to="/Projects">Projects</Link>
+            <Link id="contact" className="menu-item" to="/Contact">Contact</Link>
         </Menu>
     )
 }

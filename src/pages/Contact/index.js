@@ -1,9 +1,17 @@
-import React from 'react';
+import React, { useEffect, useContext } from 'react';
 import ContactMenu from '../../components/ContactMenu';
 import { Container, Row, Col } from 'react-bootstrap';
+import { MyContext } from '../../utils/Context';
 import './style.css';
 
 export default function Contact() {
+
+    const { isMenuOpen, toggleMenu } = useContext(MyContext)
+
+    useEffect(() => {
+        isMenuOpen && toggleMenu();
+    }, []);
+
     return (
         <Container fluid="md">
             <Row className='about-title'>
