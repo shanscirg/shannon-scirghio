@@ -12,8 +12,7 @@ export default function NavMenu() {
         <Menu
             id={"sidebar"}
             className={"my-menu"}
-            htmlClassName={"my-class"}
-            bodyClassName={"my-class"}
+            noOverlay
             width={280}
             height={"100vh"}
             pageWrapId={"page-wrap"}

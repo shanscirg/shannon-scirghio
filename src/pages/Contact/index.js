@@ -25,6 +25,5 @@ export default function Contact() {
                 </Col>
             </Row>
         </Container>
-
     )
 }
