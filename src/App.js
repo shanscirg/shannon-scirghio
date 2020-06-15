@@ -1,7 +1,9 @@
 import React from 'react';
 import './App.css';
 import { Route, Switch } from 'react-router-dom';
-import NavMenu from './components/Navbar';
+import { Row } from 'react-bootstrap';
+import ContactMenu from './components/ContactMenu';
+import NavMenu from './components/NavMenu';
 import About from './pages/About';
 import Home from './pages/Home';
 import Projects from './pages/Projects';

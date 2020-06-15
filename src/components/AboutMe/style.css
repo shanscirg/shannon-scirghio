@@ -9,3 +9,65 @@
 .header:hover {
     font-size: 40px;
 }
+
+.about-me {
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    text-align: center;
+}
+
+.about-me-skills {
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    text-align: center;
+}
+
+.mern-image {
+    height: 85%;
+    margin-top: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.posi-image {
+    height: 78%;
+    margin-top: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.about-title {
+    text-align: center;
+    margin-top: 8%;
+}
+
+.about-title-2 {
+    text-align: center;
+    margin-top: 2%;
+}
+
+.about-me-title {
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 60px;
+    display: inline-block;
+}
+
+.about-me-title-2 {
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 30px;
+    display: inline-block;
+}
+
+.about-paragraph {
+    text-align: center;
+}
+
+hr {
+    border-top: 1px solid white;
+}

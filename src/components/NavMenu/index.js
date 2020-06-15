@@ -1,10 +1,7 @@
-import React, { useContext, useState } from 'react';
-import { Navbar, Nav, Row, Col, Image, Container } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import React, { useContext } from 'react';
 import './style.css';
 import { scaleRotate as Menu } from 'react-burger-menu'
 import { MyContext } from '../../utils/Context';
-// import Button from '../Button';
 import BurgIcon from '../Hamburger/burgIcon';
 
 export default function NavMenu() {

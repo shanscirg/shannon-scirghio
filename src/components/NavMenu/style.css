@@ -1,47 +1,9 @@
-/* .navbartext{
-    margin-right: 20px;
-    font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-    color: #18A994;
-}
-
-.brand {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.navhead {
-    color: darkslategrey;
-}
-
-.navnav {
-    border-bottom: double darkslategrey;
-    border-top: double darkslategrey;
-}
-
-.logo {
-    background-color: white;
-    border-radius: 50%;
-    z-index: 1;
-    padding: 5px;
-    margin-left: 2%;
-    margin-top: 1%;
-    border: solid black;
-} */
-
-/* 
-#outer-container {
-  height: 100%;
-} */
-
-
-
 .bm-burger-button {
     position: fixed;
     width: 36px;
     height: 30px;
-    left: 36px;
-    top: 36px;
+    left: 55px;
+    top: 35px;
   }
   
   .bm-icon {

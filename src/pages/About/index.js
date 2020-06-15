@@ -2,15 +2,19 @@ import React from 'react';
 import AboutMe from '../../components/AboutMe';
 import { Container, Row, Col } from 'react-bootstrap';
 import './style.css';
+import ContactMenu from '../../components/ContactMenu';
 
 export default function About() {
     return (
-        <Container fluid="md">
-            <Row className='mt-5 about-row'>
-                <Col xs={12} lg={6}>
-                    <AboutMe />
-                </Col>
+        <>
+            <Row className='contact-row'>
+                <ContactMenu />
             </Row>
-        </Container>
+            <Container fluid='md'>
+                <AboutMe />
+            </Container>
+        </>
     )
 }
+
+

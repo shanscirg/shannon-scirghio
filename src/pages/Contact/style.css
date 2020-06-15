@@ -1,0 +1,7 @@
+.contact-page-row {
+    display: flex;
+    align-items: center;
+    /* position: absolute;
+    right: 23%;
+    top: 10%; */
+}
