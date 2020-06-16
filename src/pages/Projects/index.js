@@ -1,5 +1,5 @@
 import React, { useContext, useEffect } from 'react';
-import { Container, Row } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import { MyContext } from '../../utils/Context';
 import ProjectCard from '../../components/ProjectCard';
 import slangSS from '../../utils/images/slangSS1.png';
@@ -7,6 +7,7 @@ import slangFavicon from '../../utils/images/slangFavicon.png';
 import placeholder from '../../utils/images/placeholder.png';
 import whatsSS from '../../utils/images/whatsSS.png';
 import whatsFav from '../../utils/images/whatsFav.png';
+import ContactMenu from '../../components/ContactMenu';
 
 export default function Projects() {
 
@@ -26,6 +27,14 @@ export default function Projects() {
 
     return (
         <Container fluid='md' className='home-container'>
+            <Row className='contact-row'>
+                <ContactMenu />
+            </Row>
+            <Row className='about-title'>
+                <Col xs={12} lg={12}>
+                    <h1 className='about-me-title'>My Projects</h1>
+                </Col>
+            </Row>
             <Row>
                 <ProjectCard
                     imageSrc={slangSS}
@@ -43,12 +52,12 @@ export default function Projects() {
                     githubSite={whatsGithub}
                     siteLogo={whatsFav}
                 />
-                <ProjectCard
+                {/* <ProjectCard
                     imageSrc={placeholder}
                     siteName={'idkyet'}
                     liveSite={whatsHref}
                     description={slangDescription}
-                />
+                /> */}
             </Row>
         </Container>
     )
