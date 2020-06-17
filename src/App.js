@@ -1,8 +1,6 @@
 import React from 'react';
 import './App.css';
 import { Route, Switch } from 'react-router-dom';
-import { Row } from 'react-bootstrap';
-import ContactMenu from './components/ContactMenu';
 import NavMenu from './components/NavMenu';
 import About from './pages/About';
 import Home from './pages/Home';
@@ -30,8 +28,8 @@ function App() {
             <Contact />
           </Route>
         </Switch>
-      </div>
       <Footer />
+      </div>
     </>
   );
 }

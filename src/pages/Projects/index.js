@@ -4,7 +4,6 @@ import { MyContext } from '../../utils/Context';
 import ProjectCard from '../../components/ProjectCard';
 import slangSS from '../../utils/images/slangSS2.png';
 import slangFavicon from '../../utils/images/slangFavicon.png';
-import placeholder from '../../utils/images/placeholder.png';
 import whatsSS from '../../utils/images/whatsSS.png';
 import whatsFav from '../../utils/images/whatsFav.png';
 import ContactMenu from '../../components/ContactMenu';
