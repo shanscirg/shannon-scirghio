@@ -1,5 +1,5 @@
 .hamburger-center {
-  content: "";
+  content: '';
   height: 5px;
   width: 50px;
   background: blue;
@@ -10,7 +10,7 @@
 }
 
 .hamburger-top {
-  content: "";
+  content: '';
   display: block;
   height: 5px;
   background: teal;
@@ -23,7 +23,7 @@
 }
 
 .hamburger-bottom {
-  content: "";
+  content: '';
   display: block;
   height: 5px;
   background: cornflowerblue;

@@ -49,7 +49,7 @@ export default function AboutMe() {
             </Row>
             <Row className='about-title-2'>
                 <Col xs={12} lg={12}>
-                    <h1 className='about-me-title-2'><strong>Check out my <a target="_blank" href={resume}>resume</a> to learn more!</strong></h1>
+                    <h1 className='about-me-title-2'><strong>Check out my <a target='_blank' href={resume}>resume</a> to learn more!</strong></h1>
                 </Col>
             </Row>
             <hr></hr>

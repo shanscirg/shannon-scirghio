@@ -12,13 +12,13 @@
 
 .about-me {
     color: white;
-    font-family: "Courier New", Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
 }
 
 .about-me-skills {
     color: white;
-    font-family: "Courier New", Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
 }
 
@@ -52,14 +52,14 @@
 
 .about-me-title {
     color: white;
-    font-family: "Courier New", Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 60px;
     display: inline-block;
 }
 
 .about-me-title-2 {
     color: white;
-    font-family: "Courier New", Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
     display: inline-block;
 }

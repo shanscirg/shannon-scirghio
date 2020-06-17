@@ -1,6 +1,6 @@
 import React, { useState, createContext } from 'react';
 
-export const MyContext = createContext("");
+export const MyContext = createContext('');
 
 
 export default ({ children }) => {

@@ -8,13 +8,14 @@ import About from './pages/About';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
+import Footer from '../src/components/Footer';
 
 
 function App() {
   return (
     <>
       <NavMenu />
-      <div id="page-wrap">
+      <div id='page-wrap'>
         <Switch>
           <Route exact path='/'>
             <Home />
@@ -30,6 +31,7 @@ function App() {
           </Route>
         </Switch>
       </div>
+      <Footer />
     </>
   );
 }

@@ -10,22 +10,22 @@ export default function NavMenu() {
 
     return (
         <Menu
-            id={"sidebar"}
-            className={"my-menu"}
+            id={'sidebar'}
+            className={'my-menu'}
             noOverlay
             width={280}
-            height={"100vh"}
-            pageWrapId={"page-wrap"}
-            outerContainerId={"outer-container"}
+            height={'100vh'}
+            pageWrapId={'page-wrap'}
+            outerContainerId={'outer-container'}
             customBurgerIcon={<BurgIcon />}
             customCrossIcon={<BurgIcon />}
             isOpen={ctx.isMenuOpen}
             onStateChange={(state) => ctx.stateChangeHandler(state)}
         >
-            <Link id="home" className="menu-item" to="/">Home</Link>
-            <Link id="about" className="menu-item" to="/About">About</Link>
-            <Link id="projects" className="menu-item" to="/Projects">Projects</Link>
-            <Link id="contact" className="menu-item" to="/Contact">Contact</Link>
+            <Link id='home' className='menu-item' to='/'>Home</Link>
+            <Link id='about' className='menu-item' to='/About'>About</Link>
+            <Link id='projects' className='menu-item' to='/Projects'>Projects</Link>
+            <Link id='contact' className='menu-item' to='/Contact'>Contact</Link>
         </Menu>
     )
 }

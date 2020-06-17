@@ -18,7 +18,7 @@ export default function Home() {
             <Row className='contact-row'>
                 <ContactMenu />
             </Row>
-            <Container fluid="md" className="home-container">
+            <Container fluid='md' className='home-container'>
                 <Row className='mt-5 home-row'>
                     <Col xs={12} lg={6}>
                         <AboutImage />

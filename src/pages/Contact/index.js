@@ -13,7 +13,7 @@ export default function Contact() {
     }, []);
 
     return (
-        <Container fluid="md">
+        <Container fluid='md'>
             <Row className='about-title'>
                 <Col xs={12} lg={12}>
                     <h1 className='about-me-title'>Contact Me!</h1>

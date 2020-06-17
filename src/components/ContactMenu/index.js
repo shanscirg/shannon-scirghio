@@ -15,22 +15,22 @@ export default function ContactMenu() {
                 {/* <Col xs={8} lg={8}>
                 </Col> */}
                 {/* <Col xs={1} lg={1}> */}
-                    <a target="_blank" href='https://www.linkedin.com/in/shanscirg'>
+                    <a target='_blank' href='https://www.linkedin.com/in/shanscirg'>
                         <Image className={location.pathname !== '/Contact' ? 'contact-img-home' : 'contact-img'} src={linkedin}></Image>
                     </a>
                 {/* </Col> */}
                 {/* <Col xs={1} lg={1}> */}
-                    <a target="_blank" href='https://github.com/shanscirg'>
+                    <a target='_blank' href='https://github.com/shanscirg'>
                         <Image className={location.pathname !== '/Contact' ? 'contact-img-home' : 'contact-img'} src={github}></Image>
                     </a>
                 {/* </Col> */}
                 {/* <Col xs={1} lg={1}> */}
-                    <a target="_blank" href='mailto:shanscirg7@gmail.com'>
+                    <a target='_blank' href='mailto:shanscirg7@gmail.com'>
                         <Image className={location.pathname !== '/Contact' ? 'contact-img-home' : 'contact-img'} src={gmail}></Image>
                     </a>
                 {/* </Col> */}
                 {/* <Col xs={1} lg={1}> */}
-                    <a target="_blank" href={resumePdf}>
+                    <a target='_blank' href={resumePdf}>
                         <Image className={location.pathname !== '/Contact' ? 'contact-img-home' : 'contact-img'} src={resume}></Image>
                     </a>
                 {/* </Col> */}

@@ -1,5 +1,5 @@
-import React, { useState, useContext } from "react";
-import Hamburger from "./index.js";
+import React, { useState, useContext } from 'react';
+import Hamburger from './index.js';
 import { MyContext } from '../../utils/Context';
 
 export default function BurgIcon() {
@@ -9,7 +9,7 @@ export default function BurgIcon() {
 
 
     return (
-        <div className="centerRoot">
+        <div className='centerRoot'>
             <Hamburger active={isMenuOpen} loading={false} />
         </div>
     )
