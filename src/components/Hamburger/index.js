@@ -8,7 +8,7 @@ class Hamburger extends React.PureComponent {
     const { active, loading } = this.props;
 
     return (
-      <div style={{position: 'relative', top: '10px', left: '-5px'}}>
+      <div style={{position: 'relative', top: '10px', left: '-5px'}} className='burg-button'>
         <div
           className={`hamburger-top ${active ? 'active' : ''} ${
             loading ? 'loading' : ''

@@ -1,7 +1,6 @@
 .about-intro {
     color: white;
     font-family: 'Courier New', Courier, monospace;
-    
 }
 
 .words {
@@ -10,4 +9,14 @@
 
 .intro {
     margin-left: 13px;
+    animation: 1s ease-out 0s 1 slideInFromRight;
 }
+
+@keyframes slideInFromRight {
+    0% {
+      transform: translateX(200%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }

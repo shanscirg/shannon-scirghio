@@ -9,7 +9,7 @@ export default function BurgIcon() {
 
 
     return (
-        <div className='centerRoot'>
+        <div className='centerRoot call-animation-burger'>
             <Hamburger active={isMenuOpen} loading={false} />
         </div>
     )
