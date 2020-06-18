@@ -48,16 +48,6 @@ export default function Projects() {
             github: 'https://github.com/shanscirg/whats-my-life'
         },
         {
-            name: 'BurgerVille',
-            image: burgerSS,
-            icon: burgerIcon,
-            href: 'https://burger-ville.herokuapp.com/burgers',
-            description: 'is an MVC app where users can input the name of a burger they\'d like to eat, which subsequently appears on the screen. They are able to click a button to "devour" the burger, and it moves to the devoured burgers section.',
-            role: 'This was an individual project, so I worked on everything from frontend to backend. It was great experience for understanding MVC (Model - View - Controller).',
-            techs: 'HTML5, CSS3, Bootstrap, JavaScript, MySQL2, Node.js, Express.js, Handlebars, Heroku',
-            github: 'https://github.com/shanscirg/burger'
-        },
-        {
             name: 'Moodia',
             image: moodiaSS,
             icon: moodiaIcon,
@@ -68,16 +58,6 @@ export default function Projects() {
             github: 'https://github.com/shanscirg/Moodia'
         },
         {
-            name: 'Employee Directory',
-            image: employeeSS,
-            icon: employeeIcon,
-            href: 'https://employee-directory-ss.netlify.app/',
-            description: 'was my first attempt at a React app. It\'s a very basic app that shows a set list of employees. The user can choose to sort the employees alphabetically, filter them to find only engineers, or reset it.',
-            role: 'I worked on this project by myself, so I used React.js to build functional and class-based components that dynamically render on the page.',
-            techs: 'HTML5, CSS3, JavaScript, React.js, Netlify',
-            github: 'https://github.com/shanscirg/employee-directory'
-        },
-        {
             name: 'Weather Dashboard',
             image: weatherSS,
             icon: weatherIcon,
@@ -86,6 +66,26 @@ export default function Projects() {
             role: 'This was a solo project, so I did everything from the JavaScript logic to API calls to styling.',
             techs: 'HTML5, CSS3, Bootstrap, JavaScript, AJAX',
             github: 'https://github.com/shanscirg/Weather-Dashboard'
+        },
+        {
+            name: 'BurgerVille',
+            image: burgerSS,
+            icon: burgerIcon,
+            href: 'https://burger-ville.herokuapp.com/burgers',
+            description: 'is an MVC app where users can input the name of a burger they\'d like to eat, which subsequently appears on the screen. They are able to click a button to "devour" the burger, and it moves to the devoured burgers section.',
+            role: 'This was an individual project, so I worked on everything from frontend to backend. It was great experience for understanding MVC (Model - View - Controller).',
+            techs: 'HTML5, CSS3, Bootstrap, JavaScript, MySQL2, Node.js, Express.js, Handlebars, Heroku',
+            github: 'https://github.com/shanscirg/burger'
+        },
+        {
+            name: 'Employee Directory',
+            image: employeeSS,
+            icon: employeeIcon,
+            href: 'https://employee-directory-ss.netlify.app/',
+            description: 'was my first attempt at a React app. It\'s a very basic app that shows a set list of employees. The user can choose to sort the employees alphabetically, filter them to find only engineers, or reset it.',
+            role: 'I worked on this project by myself, so I used React.js to build functional and class-based components that dynamically render on the page.',
+            techs: 'HTML5, CSS3, JavaScript, React.js, Netlify',
+            github: 'https://github.com/shanscirg/employee-directory'
         }
     ]
 
@@ -108,18 +108,18 @@ export default function Projects() {
                     'margin-bottom': '40px'
                 }}
             >
-            {projects.map(project => (
-                <ProjectCard
-                    imageSrc={project.image}
-                    siteName={project.name}
-                    liveSite={project.href}
-                    description={project.description}
-                    role={project.role}
-                    techs={project.techs}
-                    githubSite={project.github}
-                    siteLogo={project.icon}
-                />
-            ))}
+                {projects.map(project => (
+                    <ProjectCard
+                        imageSrc={project.image}
+                        siteName={project.name}
+                        liveSite={project.href}
+                        description={project.description}
+                        role={project.role}
+                        techs={project.techs}
+                        githubSite={project.github}
+                        siteLogo={project.icon}
+                    />
+                ))}
             </Row>
         </Container >
     )
