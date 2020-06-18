@@ -72,9 +72,9 @@ export default function Projects() {
             image: employeeSS,
             icon: employeeIcon,
             href: 'https://employee-directory-ss.netlify.app/',
-            description: '',
-            role: '',
-            techs: '',
+            description: 'was my first attempt at a React app. It\'s a very basic app that shows a set list of employees. The user can choose to sort the employees alphabetically, filter them to find only engineers, or reset it.',
+            role: 'I worked on this project by myself, so I used React.js to build functional and class-based components that dynamically render on the page.',
+            techs: 'HTML5, CSS3, JavaScript, React.js, Netlify',
             github: 'https://github.com/shanscirg/employee-directory'
         },
         {
@@ -82,9 +82,9 @@ export default function Projects() {
             image: weatherSS,
             icon: weatherIcon,
             href: 'https://shanscirg.github.io/Weather-Dashboard/',
-            description: '',
-            role: '',
-            techs: '',
+            description: 'was my first project in which I utilized a third-party API to retrieve data. The user can search any city to see the current weather and a 5-day forecast. Searches get saved onto the page as buttons to be clicked on to bring up the weather information again.',
+            role: 'This was a solo project, so I did everything from the JavaScript logic to API calls to styling.',
+            techs: 'HTML5, CSS3, Bootstrap, JavaScript, AJAX',
             github: 'https://github.com/shanscirg/Weather-Dashboard'
         }
     ]
