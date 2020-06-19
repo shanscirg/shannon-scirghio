@@ -3,6 +3,10 @@ import ContactMenu from '../../components/ContactMenu';
 import { Container, Row, Col } from 'react-bootstrap';
 import { MyContext } from '../../utils/Context';
 import './style.css';
+// import RadialMenu from '../../components/RadialMenu';
+import RadialMenu from "react-radial-menu"
+import facebook from '../../utils/images/social/facebook.png';
+import flickr from '../../utils/images/social/flickr.png';
 
 export default function Contact() {
 
@@ -12,20 +16,24 @@ export default function Contact() {
         isMenuOpen && toggleMenu();
     }, []);
 
+    const items = [
+        {"href":"http://www.facebook.com", "image":`url(${facebook})`},
+        {"href":"http://www.reddit.com", "image":"url(../../utils/images/social/reddit.png)"},
+        {"href":"http://www.flickr.com", "image":`url(${flickr})`},
+        {"href":"http://www.google.com", "image":"url(../../utils/images/social/googleplus.png)"},
+        {"href":"http://www.linkedin.com", "image":"url(../../utils/images/social/linkedin.png)"},
+        {"href":"http://www.twitter.com", "image":"url(../../utils/images/social/twitter.png)"},
+        {"href":"http://www.twitter.com", "image":"url(../../utils/images/social/twitter.png)"}
+    ];
+    
+    const center = {
+        "image": "url(../../utils/images/social/share.png)"
+    };
+
     return (
-        <Container fluid='md'>
-            <Row className='about-title'>
-                <Col xs={12} lg={12}>
-                    <h1 className='about-me-title'>Contact Me!</h1>
-                </Col>
-            </Row>
-            <Row className='about-title-2'>
-                <Col xs={12} lg={12}>
-                <ContactMenu />
-                </Col>
-            </Row>
-            <Row style={{height: '290px'}}>
-            </Row>
-        </Container>
+        <RadialMenu
+          items={items}
+          center={center}
+        />
     )
 }

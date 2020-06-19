@@ -101,7 +101,6 @@ export default function Projects() {
             </Row>
             <Row
                 style={{
-                    height: '450px',
                     display: 'flex',
                     'justify-content': 'center',
                     'align-items': 'center',
