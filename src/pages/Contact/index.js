@@ -27,5 +27,7 @@ export default function Contact() {
             <Row style={{height: '290px'}}>
             </Row>
         </Container>
+
+        
     )
 }
