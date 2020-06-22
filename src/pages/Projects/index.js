@@ -15,8 +15,6 @@ import employeeIcon from '../../utils/images/employeeIcon.png';
 import weatherSS from '../../utils/images/weatherSS.png';
 import weatherIcon from '../../utils/images/weatherIcon.png';
 
-import ContactMenu from '../../components/ContactMenu';
-
 export default function Projects() {
 
     const { isMenuOpen, toggleMenu } = useContext(MyContext)
@@ -91,9 +89,6 @@ export default function Projects() {
 
     return (
         <Container fluid='md' className='home-container'>
-            <Row className='contact-row'>
-                <ContactMenu />
-            </Row>
             <Row className='about-title'>
                 <Col xs={12} lg={12}>
                     <h1 className='about-me-title'>My Projects</h1>
@@ -104,7 +99,7 @@ export default function Projects() {
                     display: 'flex',
                     'justify-content': 'center',
                     'align-items': 'center',
-                    'margin-bottom': '40px'
+                    'margin': '0'
                 }}
             >
                 {projects.map(project => (

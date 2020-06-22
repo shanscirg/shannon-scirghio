@@ -11,29 +11,19 @@ import resumePdf from '../../utils/ShannonScirghio_Resume.pdf';
 export default function ContactMenu() {
     const location = useLocation();
     return (
-        <>
-                {/* <Col xs={8} lg={8}>
-                </Col> */}
-                {/* <Col xs={1} lg={1}> */}
-                    <a target='_blank' rel="noopener noreferrer" href='https://www.linkedin.com/in/shanscirg'>
-                        <Image className={location.pathname !== '/Contact' ? 'contact-img-home' : 'contact-img'} src={linkedin}></Image>
-                    </a>
-                {/* </Col> */}
-                {/* <Col xs={1} lg={1}> */}
-                    <a target='_blank' rel="noopener noreferrer" href='https://github.com/shanscirg'>
-                        <Image className={location.pathname !== '/Contact' ? 'contact-img-home' : 'contact-img'} src={github}></Image>
-                    </a>
-                {/* </Col> */}
-                {/* <Col xs={1} lg={1}> */}
-                    <a target='_blank' rel="noopener noreferrer" href='mailto:shanscirg7@gmail.com'>
-                        <Image className={location.pathname !== '/Contact' ? 'contact-img-home' : 'contact-img'} src={gmail}></Image>
-                    </a>
-                {/* </Col> */}
-                {/* <Col xs={1} lg={1}> */}
-                    <a target='_blank' rel="noopener noreferrer" href={resumePdf}>
-                        <Image className={location.pathname !== '/Contact' ? 'contact-img-home' : 'contact-img'} src={resume}></Image>
-                    </a>
-                {/* </Col> */}
-</>
+        <div style={{display: 'flex', justifyContent: location.pathname !== '/Contact' ? 'flex-end' : '', 'flex-direction': location.pathname !== '/Contact' ? '' : 'column', marginTop: '25px'}}>
+            <a target='_blank' rel="noopener noreferrer" href='https://www.linkedin.com/in/shanscirg'>
+                <Image className={location.pathname !== '/Contact' ? 'contact-img-home' : 'contact-img'} src={linkedin}></Image>
+            </a>
+            <a target='_blank' rel="noopener noreferrer" href='https://github.com/shanscirg'>
+                <Image className={location.pathname !== '/Contact' ? 'contact-img-home' : 'contact-img'} src={github}></Image>
+            </a>
+            <a target='_blank' rel="noopener noreferrer" href='mailto:shanscirg7@gmail.com'>
+                <Image className={location.pathname !== '/Contact' ? 'contact-img-home' : 'contact-img'} src={gmail}></Image>
+            </a>
+            <a target='_blank' rel="noopener noreferrer" href={resumePdf}>
+                <Image className={location.pathname !== '/Contact' ? 'contact-img-home' : 'contact-img'} src={resume}></Image>
+            </a>
+        </div>
     )
 }
