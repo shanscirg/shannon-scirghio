@@ -24,8 +24,6 @@ export default function Contact() {
                 <ContactMenu />
                 </Col>
             </Row>
-            <Row style={{height: '290px'}}>
-            </Row>
         </Container>
 
         
