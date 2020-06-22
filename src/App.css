@@ -30,7 +30,3 @@ body::before {
   border-radius: 20px;       /* roundness of the scroll thumb */
   /* border: 3px solid creates padding around scroll thumb */
 }
-
-#root {
-  min-height: 100vh;
-}
