@@ -31,7 +31,9 @@ function App() {
       <NavMenu />
       {
         location.pathname !== '/Contact' &&
-          <ContactMenu />
+          <ContactMenu 
+          headerMenu={true}
+          />
       }
       <div id='page-wrap'>
         <Switch>
