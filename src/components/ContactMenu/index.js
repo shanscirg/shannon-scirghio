@@ -11,7 +11,7 @@ import resumePdf from '../../utils/ShannonScirghio_Resume.pdf';
 export default function ContactMenu({ headerMenu }) {
     const location = useLocation();
     return (
-        <div style={{ display: 'flex', justifyContent: location.pathname !== '/Contact' ? 'flex-end' : 'center', 'flex-wrap': headerMenu ? '' : 'wrap', marginTop: '25px' }}>
+        <div style={{ display: 'flex', justifyContent: location.pathname !== '/Contact' ? 'flex-end' : 'center', 'flex-wrap': headerMenu ? '' : 'wrap', marginTop: headerMenu ? '25px' : '' }}>
             <a target='_blank' rel="noopener noreferrer" href='https://www.linkedin.com/in/shanscirg'>
                 <Image className={location.pathname !== '/Contact' ? 'contact-img-home' : 'contact-img'} src={linkedin}></Image>
             </a>

@@ -19,17 +19,17 @@ body::before {
   top: 0;
 }
 
-*::-webkit-scrollbar {
-  width: 12px;               /* width of the entire scrollbar */
-}
-/* *::-webkit-scrollbar-track {
-  background: rgba(0, 0, 0, 0.3);
-} */
-*::-webkit-scrollbar-thumb {
-  background-color: rgba(0, 91, 97, 0.6);  
-  border-radius: 20px;       /* roundness of the scroll thumb */
+/* *::-webkit-scrollbar { */
+  /* width: 12px;               width of the entire scrollbar */
+/* } */
+/* *::-webkit-scrollbar-track { */
+  /* background: rgba(0, 0, 0, 0); */
+/* } */
+/* *::-webkit-scrollbar-thumb { */
+  /* background-color: rgba(0, 91, 97, 0.6);   */
+  /* border-radius: 20px;       roundness of the scroll thumb */
   /* border: 3px solid creates padding around scroll thumb */
-}
+/* } */
 
 #page-wrap {
   margin-bottom: 100px;

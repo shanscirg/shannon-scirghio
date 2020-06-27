@@ -27,7 +27,7 @@ export default function AboutMe() {
                 </Col>
             </Row>
             <Row>
-                <Col xs={12} lg={6}>
+                <Col xs={12} lg={6} style={{marginBottom: '20px'}}>
                     <h4 className='about-me-skills'>I work with <strong>CSS/Bootstrap</strong>, <strong>JavaScript</strong>, including <strong>Express.js</strong>, <strong>Node.js</strong>, and <strong>React.js</strong>, and database technologies such as <strong>MongoDB</strong> and <strong>MySQL</strong>.</h4>
                     <Row>
                         <Col xs={12} lg={12}>
@@ -35,7 +35,7 @@ export default function AboutMe() {
                         </Col>
                     </Row>
                 </Col>
-                <Col xs={12} lg={6}>
+                <Col xs={12} lg={6} style={{marginBottom: '20px'}}>
                     <h4 className='about-me-skills'>I am infectiously <strong>optimistic</strong>, <strong>collaborative</strong>, <strong>organized</strong>, and I have strong <strong>work ethic</strong>, great <strong>communication</strong>, and innovative <strong>problem solving</strong> skills.</h4>
                     <Row>
                         <Col xs={12} lg={12}>
