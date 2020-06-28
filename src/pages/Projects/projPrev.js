@@ -1,20 +1,12 @@
-import React, { useContext, useEffect } from 'react';
-import { Container, Row, Col, Button } from 'react-bootstrap';
+import React from 'react';
+import { Row, Col, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import { MyContext } from '../../utils/Context';
 import ProjectCard from '../../components/ProjectCard';
 import projects from './projects';
 
 export default function ProjPrev() {
 
-    const { isMenuOpen, toggleMenu } = useContext(MyContext)
-
-    useEffect(() => {
-        isMenuOpen && toggleMenu();
-    }, []);
-
     const firstTwoProj = projects.slice(0, 2);
-
 
     return (
         <>

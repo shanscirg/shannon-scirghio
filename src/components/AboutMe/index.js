@@ -28,7 +28,7 @@ export default function AboutMe() {
             </Row>
             <Row>
                 <Col xs={12} lg={6} style={{marginBottom: '20px'}}>
-                    <h4 className='about-me-skills'>I work with <strong>CSS/Bootstrap</strong>, <strong>JavaScript</strong>, including <strong>Express.js</strong>, <strong>Node.js</strong>, and <strong>React.js</strong>, and database technologies such as <strong>MongoDB</strong> and <strong>MySQL</strong>.</h4>
+                    <h4 className='about-me-skills'>I work with <strong>CSS3/Bootstrap</strong>, <strong>JavaScript</strong>, including <strong>Express.js</strong>, <strong>Node.js</strong>, and <strong>React.js</strong>, and database technologies such as <strong>MongoDB</strong> and <strong>MySQL</strong>.</h4>
                     <Row>
                         <Col xs={12} lg={12}>
                             <Image src={mern} className='mern-image' alt='MERN Stack Development' thumbnail />

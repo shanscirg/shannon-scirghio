@@ -10,6 +10,7 @@ export default function Projects() {
 
     useEffect(() => {
         isMenuOpen && toggleMenu();
+        window.scrollTo(0, 0);
     }, []);
 
     return (

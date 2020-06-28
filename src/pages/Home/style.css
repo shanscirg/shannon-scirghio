@@ -13,6 +13,9 @@
 
 .home-container {
     padding: 2%;
-    overflow: auto;
     height: 85vh;
+    overflow-x: hidden; 
+    overflow-y: hidden;
+    width: 100%;
+    height: 100%;
 }
