@@ -3,6 +3,7 @@ import { Row, Col, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import ProjectCard from '../../components/ProjectCard';
 import projects from './projects';
+import ButtonComp from '../../components/Button';
 
 export default function ProjPrev() {
 
@@ -44,9 +45,10 @@ export default function ProjPrev() {
                     'margin-top': '50px'
                 }}
             >
-                <Link to='/Projects'>
-                    <Button variant="primary" size="lg" style={{border: '2px solid white'}}>See More Projects</Button>
-                </Link>
+                    <ButtonComp
+                        text='See More Projects'
+                        path='/Projects'
+                    />
             </Row>
         </>
     )

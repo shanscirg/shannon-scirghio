@@ -1,6 +1,6 @@
 import React, { useEffect, useContext } from 'react';
 import AboutMe from '../../components/AboutMe';
-import BackToHome from '../../components/BackToHome/index';
+import ButtonComp from '../../components/Button/index';
 import { Container } from 'react-bootstrap';
 import './style.css';
 import { MyContext } from '../../utils/Context';
@@ -16,10 +16,13 @@ export default function About() {
 
     return (
         <>
-            <Container fluid='md' style={{ 'margin-top': '75px' }}>
+            <Container fluid='md' style={{ 'margin-top': '75px', 'margin-bottom': '50px' }}>
                 <AboutMe />
             </Container>
-            <BackToHome />
+            <ButtonComp
+                path='/'
+                text='Back to Home'
+            />
         </>
     )
 }

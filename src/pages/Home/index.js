@@ -49,7 +49,6 @@ export default function Home() {
             <Container fluid='md' className='home-container'>
                 <Contact />
             </Container>
-            <hr></hr>
         </Container>
     )
 }

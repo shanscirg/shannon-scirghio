@@ -3,7 +3,7 @@ import ContactMenu from '../../components/ContactMenu';
 import { Container, Row, Col } from 'react-bootstrap';
 import { useLocation } from 'react-router-dom';
 import { MyContext } from '../../utils/Context';
-import BackToHome from '../../components/BackToHome/index';
+import BackToHome from '../../components/Button/index';
 import './style.css';
 
 export default function Contact() {
@@ -18,7 +18,7 @@ export default function Contact() {
 
     return (
         <>
-            <Container fluid='md'>
+            <Container fluid='md' style={{'margin-bottom': '50px'}}>
                 <Row
                     style={{
                         'text-align': 'center',
@@ -36,8 +36,11 @@ export default function Contact() {
                 </Row>
             </Container >
             {location.pathname === '/Contact'
-            &&
-            <BackToHome />
+                &&
+                <BackToHome
+                    path='/'
+                    text='Back to Home'
+                />
             }
         </>
     )

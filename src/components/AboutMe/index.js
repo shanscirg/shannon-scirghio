@@ -49,10 +49,6 @@ export default function AboutMe() {
                     <h1 className='about-me-title-2'><strong>Check out my <a target='_blank' rel="noopener noreferrer" href={resume}>resume</a> to learn more!</strong></h1>
                 </Col>
             </Row>
-            <hr></hr>
-            <Row>
-
-            </Row>
         </>
     )
 }

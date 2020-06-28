@@ -2,6 +2,7 @@ import React from 'react';
 import { Row, Col, Button, Image } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import shanImg from '../../utils/images/shan.jpeg';
+import ButtonComp from '../../components/Button';
 
 export default function AboutPrev() {
 
@@ -52,9 +53,10 @@ export default function AboutPrev() {
                     'margin-top': '50px'
                 }}
             >
-                <Link to='/About'>
-                    <Button variant="primary" size="lg" style={{ border: '2px solid white' }}>More About Me</Button>
-                </Link>
+                    <ButtonComp
+                        text='More About Me'
+                        path='/About'
+                    />
             </Row>
         </>
     )

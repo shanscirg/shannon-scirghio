@@ -2,7 +2,7 @@ import React, { useContext, useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { MyContext } from '../../utils/Context';
 import ProjectCard from '../../components/ProjectCard';
-import BackToHome from '../../components/BackToHome/index';
+import ButtonComp from '../../components/Button/index';
 import projects from './projects';
 
 export default function Projects() {
@@ -16,7 +16,7 @@ export default function Projects() {
 
     return (
         <>
-            <Container fluid='md' className='home-container'>
+            <Container fluid='md' className='home-container' style={{ 'margin-top': '50px' }}>
                 <Row className='about-title'>
                     <Col xs={12} lg={12}>
                         <h1 className='about-me-title'>My Projects</h1>
@@ -44,7 +44,10 @@ export default function Projects() {
                     ))}
                 </Row>
             </Container>
-            <BackToHome />
+            <ButtonComp
+                path='/'
+                text='Back to Home'
+            />
         </>
     )
 }
