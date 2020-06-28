@@ -41,6 +41,7 @@ export default function ProjPrev() {
                     display: 'flex',
                     'justify-content': 'center',
                     'align-items': 'center',
+                    'margin-top': '50px'
                 }}
             >
                 <Link to='/Projects'>

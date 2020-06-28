@@ -49,7 +49,7 @@ export default function AboutPrev() {
                     display: 'flex',
                     'justify-content': 'center',
                     'align-items': 'center',
-                    'margin-top': '15px'
+                    'margin-top': '50px'
                 }}
             >
                 <Link to='/About'>

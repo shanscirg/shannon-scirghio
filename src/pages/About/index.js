@@ -1,5 +1,6 @@
 import React, { useEffect, useContext } from 'react';
 import AboutMe from '../../components/AboutMe';
+import BackToHome from '../../components/BackToHome/index';
 import { Container } from 'react-bootstrap';
 import './style.css';
 import { MyContext } from '../../utils/Context';
@@ -15,9 +16,10 @@ export default function About() {
 
     return (
         <>
-            <Container fluid='md'>
+            <Container fluid='md' style={{ 'margin-top': '75px' }}>
                 <AboutMe />
             </Container>
+            <BackToHome />
         </>
     )
 }
