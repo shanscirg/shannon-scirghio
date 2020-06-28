@@ -1,10 +1,11 @@
 import React, { useContext, useEffect } from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import { MyContext } from '../../utils/Context';
 import ProjectCard from '../../components/ProjectCard';
 import projects from './projects';
 
-export default function Projects() {
+export default function ProjPrev() {
 
     const { isMenuOpen, toggleMenu } = useContext(MyContext)
 
@@ -12,8 +13,11 @@ export default function Projects() {
         isMenuOpen && toggleMenu();
     }, []);
 
+    const firstTwoProj = projects.slice(0, 2);
+
+
     return (
-        <Container fluid='md' className='home-container'>
+        <>
             <Row className='about-title'>
                 <Col xs={12} lg={12}>
                     <h1 className='about-me-title'>My Projects</h1>
@@ -27,7 +31,7 @@ export default function Projects() {
                     'margin': '0'
                 }}
             >
-                {projects.map(project => (
+                {firstTwoProj.map(project => (
                     <ProjectCard
                         imageSrc={project.image}
                         siteName={project.name}
@@ -40,6 +44,17 @@ export default function Projects() {
                     />
                 ))}
             </Row>
-        </Container >
+            <Row
+                style={{
+                    display: 'flex',
+                    'justify-content': 'center',
+                    'align-items': 'center',
+                }}
+            >
+                <Link to='/Projects'>
+                    <Button variant="primary" size="lg" style={{border: '2px solid white'}}>See More Projects</Button>
+                </Link>
+            </Row>
+        </>
     )
 }
