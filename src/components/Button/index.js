@@ -8,8 +8,8 @@ export default function ButtonComp({ text, path }) {
     return (
         <Row style={{
             display: 'flex',
-            'justify-content': 'center',
-            'align-items': 'center',
+            justifyContent: 'center',
+            alignItems: 'center',
         }}
         >
             <Link to={path}>

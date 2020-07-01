@@ -18,8 +18,8 @@ export default function ProjPrev() {
             <Row
                 style={{
                     display: 'flex',
-                    'justify-content': 'center',
-                    'align-items': 'center',
+                    justifyContent: 'center',
+                    alignItems: 'center',
                     'margin': '0'
                 }}
             >
@@ -33,15 +33,16 @@ export default function ProjPrev() {
                         techs={project.techs}
                         githubSite={project.github}
                         siteLogo={project.icon}
+                        key={project.name}
                     />
                 ))}
             </Row>
             <Row
                 style={{
                     display: 'flex',
-                    'justify-content': 'center',
-                    'align-items': 'center',
-                    'margin-top': '50px'
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    marginTop: '50px'
                 }}
             >
                     <ButtonComp

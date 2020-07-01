@@ -16,7 +16,7 @@ export default function Projects() {
 
     return (
         <>
-            <Container fluid='md' className='home-container' style={{ 'margin-top': '50px' }}>
+            <Container fluid='md' className='home-container' style={{ marginTop: '50px' }}>
                 <Row className='about-title'>
                     <Col xs={12} lg={12}>
                         <h1 className='about-me-title'>My Projects</h1>
@@ -25,8 +25,8 @@ export default function Projects() {
                 <Row
                     style={{
                         display: 'flex',
-                        'justify-content': 'center',
-                        'align-items': 'center',
+                        justifyContent: 'center',
+                        alignItems: 'center',
                         'margin': '0'
                     }}
                 >
@@ -40,6 +40,7 @@ export default function Projects() {
                             techs={project.techs}
                             githubSite={project.github}
                             siteLogo={project.icon}
+                            key={project.name}
                         />
                     ))}
                 </Row>

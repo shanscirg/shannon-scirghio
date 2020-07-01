@@ -18,11 +18,11 @@ export default function Contact() {
 
     return (
         <>
-            <Container fluid='md' style={{'margin-bottom': '50px'}}>
+            <Container fluid='md' style={{marginBottom: '50px'}}>
                 <Row
                     style={{
-                        'text-align': 'center',
-                        'margin-top': location.pathname === '/Contact' ? '100px' : '3%'
+                        textAlign: 'center',
+                        marginTop: location.pathname === '/Contact' ? '100px' : '3%'
                     }}
                 >
                     <Col xs={12} lg={12}>

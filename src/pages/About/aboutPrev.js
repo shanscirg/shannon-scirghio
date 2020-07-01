@@ -18,18 +18,18 @@ export default function AboutPrev() {
                     src={shanImg}
                     style={{
                         display: 'block',
-                        'margin-left': 'auto',
-                        'margin-right': 'auto',
+                        marginLeft: 'auto',
+                        marginRight: 'auto',
                         width: '40%',
-                        'margin-bottom': '15px'
+                        marginBottom: '15px'
                     }}
                     className='mx-auto d-block prof-img' fluid />
             </Row>
             <Row
                 style={{
                     display: 'flex',
-                    'justify-content': 'center',
-                    'align-items': 'center',
+                    justifyContent: 'center',
+                    alignItems: 'center',
                     'margin': '0'
                 }}
             >
@@ -39,16 +39,16 @@ export default function AboutPrev() {
                 style={{
                     width: '700px',
                     margin: 'auto',
-                    'margin-top': '15px'
+                    marginTop: '15px'
                 }}>
                 <h4 className='about-me-skills'>HTML5 <strong>|</strong> CSS3/Bootstrap <strong>|</strong> JavaScript <strong>|</strong> Express JS <strong>|</strong> Node JS <strong>|</strong> React JS <strong>|</strong> MongoDB <strong>|</strong> MySQL</h4>
             </Row>
             <Row
                 style={{
                     display: 'flex',
-                    'justify-content': 'center',
-                    'align-items': 'center',
-                    'margin-top': '50px'
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    marginTop: '50px'
                 }}
             >
                     <ButtonComp

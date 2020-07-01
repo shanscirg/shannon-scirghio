@@ -16,7 +16,7 @@ export default function About() {
 
     return (
         <>
-            <Container fluid='md' style={{ 'margin-top': '75px', 'margin-bottom': '50px' }}>
+            <Container fluid='md' style={{ marginTop: '75px', marginBottom: '50px' }}>
                 <AboutMe />
             </Container>
             <ButtonComp

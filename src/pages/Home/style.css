@@ -1,7 +1,6 @@
 .home-row {
     display: flex;
     align-items: center;
-    margin-top: 75px;
 }
 
 .contact-row {
@@ -12,12 +11,23 @@
     top: 5%;
 }
 
-.home-container {
+.home-container, .contact-container {
     padding: 2%;
-    height: 85vh;
     overflow-x: hidden; 
     overflow-y: hidden;
     width: 100%;
+    margin-top: 8vh;
+}
+
+.center-container {
+    display: flex;
+    align-items: center;
+}
+
+.contact-container {
     height: 100%;
-    margin-bottom: 50px;
+}
+
+.home-container {
+    min-height: 80vh;   
 }

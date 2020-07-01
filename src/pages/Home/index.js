@@ -12,7 +12,7 @@ import './style.css';
 
 export default function Home() {
     const { isMenuOpen, toggleMenu } = useContext(MyContext)
-    const [show, doShow] = useState({
+    const [show, setShow] = useState({
         itemOne: false,
         itemTwo: false,
         itemThree: false
@@ -30,16 +30,21 @@ export default function Home() {
 
         const onScroll = () => {
             const scrollPos = window.scrollY + window.innerHeight;
-            if (div1Pos < scrollPos) {
-                doShow(state => ({ ...state, itemOne: true }));
-            } else if (div2Pos < scrollPos) {
-                doShow(state => ({ ...state, itemTwo: true }));
-            } else if (div3Pos < scrollPos) {
-                doShow(state => ({ ...state, itemThree: true }));
+            setShow(state => {
                 if (window.scrollY === 0) {
-                    doShow(state => ({ ...state, itemThree: false }));
+                    return { itemOne: false, itemTwo: false, itemThree: false };
                 }
-            }
+                if (div1Pos < scrollPos) {
+                    return { ...state, itemOne: true }
+                }
+                if (div2Pos < scrollPos) {
+                    return { ...state, itemTwo: true }
+                }
+                if (div3Pos < scrollPos) {
+                    return { ...state, itemThree: true }
+                }
+                return { itemOne: false, itemTwo: false, itemThree: false };
+            })
         };
 
         window.addEventListener("scroll", onScroll);
@@ -50,13 +55,13 @@ export default function Home() {
     }, []);
 
     useEffect(() => {
-        isMenuOpen && toggleMenu();
         window.scrollTo(0, 0);
+        isMenuOpen && toggleMenu();
     }, []);
 
     return (
         <Container fluid='md'>
-            <Container fluid='md' className='home-container'>
+            <Container fluid='md' className='home-container center-container'>
                 <Row className='home-row'>
                     <Col xs={12} lg={6}>
                         <AboutImage />
@@ -83,7 +88,7 @@ export default function Home() {
                 <AboutPrev />
             </Container>
             <Hr animate={show.itemOne} ref={ourRef}></Hr>
-            <Container fluid='md' className='home-container'>
+            <Container fluid='md' className='contact-container'>
                 <Contact />
             </Container>
         </Container>
@@ -94,4 +99,5 @@ const Hr = styled.hr`
     border-top: 1px solid goldenrod;
     transform: translateX(${({ animate }) => (animate ? "0" : "-100vw")});
     transition: transform 1.5s;
+    margin-top: 8vh;
 `;
