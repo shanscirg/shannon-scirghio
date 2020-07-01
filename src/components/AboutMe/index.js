@@ -20,7 +20,7 @@ export default function AboutMe() {
                     <h4 className='about-me'>I am excited to join a <strong>quality-driven</strong>, <strong>collaborative work environment</strong> where I can leverage my background and skill set!</h4>
                 </Col>
             </Row>
-            <hr></hr>
+            <hr class='new1'></hr>
             <Row className='about-title-2'>
                 <Col xs={12} lg={12}>
                     <h1 className='about-me-title'>Why Hire Me?!</h1>

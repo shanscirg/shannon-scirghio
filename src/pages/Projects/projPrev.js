@@ -1,6 +1,5 @@
 import React from 'react';
-import { Row, Col, Button } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Row, Col } from 'react-bootstrap';
 import ProjectCard from '../../components/ProjectCard';
 import projects from './projects';
 import ButtonComp from '../../components/Button';

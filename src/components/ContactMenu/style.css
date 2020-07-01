@@ -1,11 +1,31 @@
-.contact-img-home {
+.contact-img-home, .contact-img-home-gmail {
     height: 70px;
     width: 70px;
     padding: 10px;
 }
 
-.contact-img {
+.contact-img, .contact-img-gmail {
     height: 200px;
     width: 200px;
     padding: 10px;
+}
+
+.contact-img-home:hover, .contact-img-gmail:hover {
+    border-radius:50%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.contact-img:hover, .contact-img-home-gmail:hover {
+    border-radius:50%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.contact-img-gmail:hover {
+    border-radius: 40%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.contact-img-home-gmail:hover {
+    border-radius: 45%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }

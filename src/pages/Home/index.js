@@ -1,4 +1,4 @@
-import React, { useEffect, useContext } from 'react';
+import React, { useEffect, useContext, useState, useRef, useLayoutEffect } from 'react';
 import AboutImage from '../../components/Image';
 import AboutIntro from '../../components/AboutIntro';
 import ProjPrev from '../Projects/projPrev';
@@ -6,11 +6,48 @@ import AboutPrev from '../About/aboutPrev';
 import Contact from '../Contact/index';
 import { Container, Row, Col } from 'react-bootstrap';
 import { MyContext } from '../../utils/Context';
+import styled from "styled-components";
 import './style.css';
 
 
 export default function Home() {
     const { isMenuOpen, toggleMenu } = useContext(MyContext)
+    const [show, doShow] = useState({
+        itemOne: false,
+        itemTwo: false,
+        itemThree: false
+    });
+
+    const ourRef = useRef(null);
+    const anotherRef = useRef(null);
+    const refThree = useRef(null);
+
+    useLayoutEffect(() => {
+        const topPos = element => element.getBoundingClientRect().top;
+        const div1Pos = topPos(ourRef.current);
+        const div2Pos = topPos(anotherRef.current);
+        const div3Pos = topPos(refThree.current);
+
+        const onScroll = () => {
+            const scrollPos = window.scrollY + window.innerHeight;
+            if (div1Pos < scrollPos) {
+                doShow(state => ({ ...state, itemOne: true }));
+            } else if (div2Pos < scrollPos) {
+                doShow(state => ({ ...state, itemTwo: true }));
+            } else if (div3Pos < scrollPos) {
+                doShow(state => ({ ...state, itemThree: true }));
+                if (window.scrollY === 0) {
+                    doShow(state => ({ ...state, itemThree: false }));
+                }
+            }
+        };
+
+        window.addEventListener("scroll", onScroll);
+        return () => {
+            window.removeEventListener("scroll", onScroll);
+        }
+
+    }, []);
 
     useEffect(() => {
         isMenuOpen && toggleMenu();
@@ -29,7 +66,7 @@ export default function Home() {
                     </Col>
                 </Row>
             </Container>
-            <hr></hr>
+            <Hr animate={show.itemThree} ref={refThree}></Hr>
             <Container fluid='md' className='home-container'>
                 <ProjPrev
                     style={{
@@ -41,14 +78,20 @@ export default function Home() {
                     }}
                 />
             </Container>
-            <hr></hr>
+            <Hr animate={show.itemTwo} ref={anotherRef}></Hr>
             <Container fluid='md' className='home-container'>
                 <AboutPrev />
             </Container>
-            <hr></hr>
+            <Hr animate={show.itemOne} ref={ourRef}></Hr>
             <Container fluid='md' className='home-container'>
                 <Contact />
             </Container>
         </Container>
     )
-}
+};
+
+const Hr = styled.hr`
+    border-top: 1px solid goldenrod;
+    transform: translateX(${({ animate }) => (animate ? "0" : "-100vw")});
+    transition: transform 1.5s;
+`;

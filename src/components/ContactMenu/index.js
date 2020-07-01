@@ -1,5 +1,5 @@
 import React from 'react';
-import { Image, Col, Row, Container } from 'react-bootstrap';
+import { Image } from 'react-bootstrap';
 import { useLocation } from 'react-router-dom';
 import './style.css';
 import linkedin from '../../utils/images/linkedin.png';
@@ -16,7 +16,7 @@ export default function ContactMenu() {
                 <Image className={location.pathname !== '/Contact' ? 'contact-img-home' : 'contact-img'} src={linkedin}></Image>
             </a>
             <a target='_blank' rel="noopener noreferrer" href='mailto:shanscirg7@gmail.com'>
-                <Image className={location.pathname !== '/Contact' ? 'contact-img-home' : 'contact-img'} src={gmail}></Image>
+                <Image className={location.pathname !== '/Contact' ? 'contact-img-home-gmail' : 'contact-img-gmail'} src={gmail}></Image>
             </a>
             <a target='_blank' rel="noopener noreferrer" href='https://github.com/shanscirg'>
                 <Image className={location.pathname !== '/Contact' ? 'contact-img-home' : 'contact-img'} src={github}></Image>

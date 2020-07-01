@@ -1,6 +1,5 @@
 import React from 'react';
-import { Row, Col, Button, Image } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Row, Col, Image } from 'react-bootstrap';
 import shanImg from '../../utils/images/shan.jpeg';
 import ButtonComp from '../../components/Button';
 
@@ -38,9 +37,8 @@ export default function AboutPrev() {
             </Row>
             <Row
                 style={{
-                    width: '500px',
+                    width: '700px',
                     margin: 'auto',
-                    width: '60%',
                     'margin-top': '15px'
                 }}>
                 <h4 className='about-me-skills'>HTML5 <strong>|</strong> CSS3/Bootstrap <strong>|</strong> JavaScript <strong>|</strong> Express JS <strong>|</strong> Node JS <strong>|</strong> React JS <strong>|</strong> MongoDB <strong>|</strong> MySQL</h4>

@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react';
+import React, { useContext } from 'react';
 import Hamburger from './index.js';
 import { MyContext } from '../../utils/Context';
 
