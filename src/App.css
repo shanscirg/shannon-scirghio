@@ -1,16 +1,42 @@
-body {
+/* body {
   /* The image used */
   /* background-image: url(./utils/images/background.jpg); */
+  /* background-image: url(./utils/images/background2.jpeg); */
+  /* Full height */
+  /* height: 100vh;  */
+  /* background-attachment: fixed; */
+  /* Center and scale the image nicely */
+  /* background-position: center center; */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  /* background-color: rgba(16, 133, 133, 0.6); */
+/* } */ 
+
+body {
+  background: transparent;
+} 
+
+body:after {
+  /* The image used */
+  content: '';
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  display: block;
   background-image: url(./utils/images/background2.jpeg);
   /* Full height */
-  height: 100vh; 
-  background-attachment: fixed;
+  /* height: 100vh;  */
+  /* background-attachment: fixed; */
   /* Center and scale the image nicely */
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgba(16, 133, 133, 0.6);
 }
+
 
 body::before {
   content: '';
@@ -21,11 +47,18 @@ body::before {
   top: 0;
 }
 
-@media screen and (max-device-width: 1024px) {
+@media (hover: none) {
+  body {
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+  }
+}
+
+/* @media only screen and (max-device-width: 1024px) {
   body {
     background-image: url(./utils/images/backgroundMobile.jpeg);
   }
-}
+} */
 
 /* *::-webkit-scrollbar { */
   /* width: 12px;               width of the entire scrollbar */

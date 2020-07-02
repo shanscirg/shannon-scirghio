@@ -20,9 +20,7 @@ export default function AboutPrev() {
                     src={shanImg}
                     style={{
                         display: 'block',
-                        margin: '0 auto',
-                        maxWidth: '80%',
-                        maxHeight: '80%'
+                        margin: '0 auto'
                     }}
                     className='prof-img'
                     fluid
