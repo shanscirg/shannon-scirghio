@@ -17,7 +17,6 @@ body {
 } 
 
 body:after {
-  /* The image used */
   content: '';
   position: fixed;
   left: 0;
@@ -27,10 +26,6 @@ body:after {
   z-index: -1;
   display: block;
   background-image: url(./utils/images/background2.jpeg);
-  /* Full height */
-  /* height: 100vh;  */
-  /* background-attachment: fixed; */
-  /* Center and scale the image nicely */
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -54,24 +49,9 @@ body::before {
   }
 }
 
-/* @media only screen and (max-device-width: 1024px) {
-  body {
-    background-image: url(./utils/images/backgroundMobile.jpeg);
-  }
-} */
-
-/* *::-webkit-scrollbar { */
-  /* width: 12px;               width of the entire scrollbar */
-/* } */
-/* *::-webkit-scrollbar-track { */
-  /* background: rgba(0, 0, 0, 0); */
-/* } */
-/* *::-webkit-scrollbar-thumb { */
-  /* background-color: rgba(0, 91, 97, 0.6);   */
-  /* border-radius: 20px;       roundness of the scroll thumb */
-  /* border: 3px solid creates padding around scroll thumb */
-/* } */
-
 #page-wrap {
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
+  height: 100%;
+  padding: 3em 2em;
+  text-align: center;
 }

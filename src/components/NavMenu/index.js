@@ -10,8 +10,6 @@ export default function NavMenu() {
 
     return (
         <Menu
-            id={'sidebar'}
-            className={'my-menu'}
             noOverlay
             width={280}
             height={'100vh'}
