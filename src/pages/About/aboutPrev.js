@@ -21,7 +21,8 @@ export default function AboutPrev() {
                     style={{
                         display: 'block',
                         margin: '0 auto',
-                        maxWidth: '80%'
+                        maxWidth: '80%',
+                        maxHeight: '80%'
                     }}
                     className='prof-img'
                     fluid
