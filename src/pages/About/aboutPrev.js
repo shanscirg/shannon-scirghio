@@ -13,31 +13,33 @@ export default function AboutPrev() {
                     <h1 className='about-me-title'>About Me</h1>
                 </Col>
             </Row>
-            <Row>
+            <Row
+                // style={{ maxWidth: '460px', maxHeight: '460px' }}
+            >
                 <Image
                     src={shanImg}
                     style={{
                         display: 'block',
-                        marginLeft: 'auto',
-                        marginRight: 'auto',
-                        width: '40%',
-                        marginBottom: '15px'
+                        margin: '0 auto',
+                        maxWidth: '80%'
                     }}
-                    className='mx-auto d-block prof-img' fluid />
+                    className='prof-img'
+                    fluid
+                />
             </Row>
             <Row
                 style={{
                     display: 'flex',
                     justifyContent: 'center',
                     alignItems: 'center',
-                    'margin': '0'
+                    marginTop: '15px'
                 }}
             >
                 <h4 className='about-me'>I'm a foreign language teacher entering the beautiful world that is web development. I recently completed the <strong>Full Stack Web Development</strong> boot camp from the University of Arizona.</h4>
             </Row>
             <Row
                 style={{
-                    width: '700px',
+                    width: '75%',
                     margin: 'auto',
                     marginTop: '15px'
                 }}>
@@ -51,10 +53,10 @@ export default function AboutPrev() {
                     marginTop: '50px'
                 }}
             >
-                    <ButtonComp
-                        text='More About Me'
-                        path='/About'
-                    />
+                <ButtonComp
+                    text='More About Me'
+                    path='/About'
+                />
             </Row>
         </>
     )
