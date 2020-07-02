@@ -14,16 +14,16 @@ export default function AboutPrev() {
                 </Col>
             </Row>
             <Row
-                // style={{ maxWidth: '460px', maxHeight: '460px' }}
             >
                 <Image
                     src={shanImg}
                     style={{
                         display: 'block',
-                        margin: '0 auto'
+                        margin: '0 auto',
+                        maxWidth: '87%',
+                        height: 'auto'
                     }}
                     className='prof-img'
-                    fluid
                 />
             </Row>
             <Row
