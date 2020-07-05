@@ -4,6 +4,10 @@ import './style.css';
 import mern from '../../utils/images/mern.png';
 import positive2 from '../../utils/images/positive2.jpg';
 import resume from '../../utils/ShannonScirghio_Resume.pdf';
+import shanImg from '../../utils/images/shannonAbout.JPG';
+import shannonBnW from '../../utils/images/shan4.JPG';
+import AboutImage from '../../components/Image';
+
 
 export default function AboutMe() {
 
@@ -17,6 +21,19 @@ export default function AboutMe() {
             <Row>
                 <Col xs={12} lg={12}>
                     <h4 className='about-me'>I'm a foreign language teacher entering the beautiful world that is web development. I recently completed the <strong>Full Stack Web Development</strong> boot camp from the University of Arizona.</h4>
+
+                    <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}
+                    >
+                        <Col xs={12} lg={12}>
+
+                        <AboutImage
+                            callAnimClass='call-animation-about'
+                            image={shanImg}
+                            image2={shanImg}
+                            style={{height: '50%', width: '50%', margin: 'auto'}}
+                            />
+                            </Col>
+                    </div>
                     <h4 className='about-me'>I am excited to join a <strong>quality-driven</strong>, <strong>collaborative work environment</strong> where I can leverage my background and skill set!</h4>
                 </Col>
             </Row>
@@ -27,7 +44,7 @@ export default function AboutMe() {
                 </Col>
             </Row>
             <Row>
-                <Col xs={12} lg={6} style={{marginBottom: '20px'}}>
+                <Col xs={12} lg={6} style={{ marginBottom: '20px' }}>
                     <h4 className='about-me-skills'>I work with <strong>CSS3/Bootstrap</strong>, <strong>JavaScript</strong>, including <strong>Express.js</strong>, <strong>Node.js</strong>, and <strong>React.js</strong>, and database technologies such as <strong>MongoDB</strong> and <strong>MySQL</strong>.</h4>
                     <Row>
                         <Col xs={12} lg={12}>
@@ -35,7 +52,7 @@ export default function AboutMe() {
                         </Col>
                     </Row>
                 </Col>
-                <Col xs={12} lg={6} style={{marginBottom: '20px'}}>
+                <Col xs={12} lg={6} style={{ marginBottom: '20px' }}>
                     <h4 className='about-me-skills'>I am infectiously <strong>optimistic</strong>, <strong>collaborative</strong>, <strong>organized</strong>, and I have strong <strong>work ethic</strong>, great <strong>communication</strong>, and innovative <strong>problem solving</strong> skills.</h4>
                     <Row>
                         <Col xs={12} lg={12}>

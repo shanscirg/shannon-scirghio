@@ -19,13 +19,13 @@ export default function AboutIntro() {
                     <h1 className='text-center mx-auto d-block about-intro'>Shannon Scirghio</h1>
                 </Row>
                 <Row className='slideIn1'>
-                    <h3 className='text-center mx-auto d-block about-intro words'>Developer</h3>
+                    <h3 className='text-center mx-auto d-block about-intro words'>&raquo; Developer &laquo;</h3>
                 </Row>
                 <Row className='slideIn2'>
-                    <h3 className='text-center mx-auto d-block about-intro words'>Innovator</h3>
+                    <h3 className='text-center mx-auto d-block about-intro words'>&raquo;  Innovator &laquo;</h3>
                 </Row>
                 <Row className='slideIn3'>
-                    <h3 className='text-center mx-auto d-block about-intro words'>Optimist</h3>
+                    <h3 className='text-center mx-auto d-block about-intro words'>&raquo; Optimist &laquo;</h3>
                 </Row>
             </div>
         </>

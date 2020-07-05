@@ -1,4 +1,4 @@
-.call-animation {
+.call-animation, .call-animation-about {
     background: #fff;
     max-width: 460px;
     max-height: 460px;
@@ -12,6 +12,14 @@
     -ms-backface-visibility: hidden;
     backface-visibility: hidden;
 }
+
+.call-animation-about {
+    max-width: 260px;
+    max-height: 260px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
  .prof-img {
     border: solid black;
     /* width: 100%;

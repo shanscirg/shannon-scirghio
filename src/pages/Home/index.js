@@ -8,6 +8,9 @@ import { Container, Row, Col } from 'react-bootstrap';
 import { MyContext } from '../../utils/Context';
 import styled from "styled-components";
 import './style.css';
+import shannon from '../../utils/images/shannon.JPG';
+import shannonTree from '../../utils/images/shanTree2.jpeg'
+
 
 
 export default function Home() {
@@ -64,7 +67,11 @@ export default function Home() {
             <Container fluid='md' className='home-container center-container'>
                 <Row className='home-row'>
                     <Col xs={12} lg={6}>
-                        <AboutImage />
+                        <AboutImage
+                            callAnimClass='call-animation'
+                            image={shannonTree}
+                            image2={shannon}
+                        />
                     </Col>
                     <Col xs={12} lg={6}>
                         <AboutIntro />

@@ -7,6 +7,16 @@
     font-size: 26px;
 }
 
+.slideIn1, .slideIn2, .slideIn3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.intro {
+  margin-left: 13px;
+  animation: 1s ease-out 0s 1 slideInFromRight;
+}
+
 .slideIn1 {
     animation: 0.5s ease-out 0s 1 slideInFromBottom;
 }
@@ -21,6 +31,15 @@
     from {font-size: 4rem}
     to {font-size: 3rem}
   } */
+
+@keyframes slideInFromRight {
+    0% {
+      transform: translateX(200%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }  
 
 @keyframes slideInFromBottom {
     0% {

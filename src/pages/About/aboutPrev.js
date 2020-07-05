@@ -2,6 +2,7 @@ import React from 'react';
 import { Row, Col, Image } from 'react-bootstrap';
 import shanImg from '../../utils/images/shan.jpeg';
 import ButtonComp from '../../components/Button';
+import AboutImage from '../../components/Image';
 
 export default function AboutPrev() {
 
@@ -15,15 +16,10 @@ export default function AboutPrev() {
             </Row>
             <Row
             >
-                <Image
-                    src={shanImg}
-                    style={{
-                        display: 'block',
-                        margin: '0 auto',
-                        maxWidth: '87%',
-                        height: 'auto'
-                    }}
-                    className='prof-img'
+                <AboutImage
+                    callAnimClass='call-animation-about'
+                    image={shanImg}
+                    image2={shanImg}
                 />
             </Row>
             <Row
@@ -31,14 +27,15 @@ export default function AboutPrev() {
                     display: 'flex',
                     justifyContent: 'center',
                     alignItems: 'center',
-                    marginTop: '15px'
+                    marginTop: '15px',
+                    marginLeft: '-7px',
+                    marginRight: '-7px'
                 }}
             >
                 <h4 className='about-me'>I'm a foreign language teacher entering the beautiful world that is web development. I recently completed the <strong>Full Stack Web Development</strong> boot camp from the University of Arizona.</h4>
             </Row>
             <Row
                 style={{
-                    width: '75%',
                     margin: 'auto',
                     marginTop: '15px'
                 }}>
