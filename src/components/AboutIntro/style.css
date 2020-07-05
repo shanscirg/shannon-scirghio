@@ -7,16 +7,38 @@
     font-size: 26px;
 }
 
-.intro {
-    margin-left: 13px;
-    animation: 1s ease-out 0s 1 slideInFromRight;
+.slideIn1 {
+    animation: 0.5s ease-out 0s 1 slideInFromBottom;
+}
+.slideIn2 {
+    animation: 1s ease-out 0s 1 slideInFromBottom;
+}
+.slideIn3 {
+    animation: 1.5s ease-out 0s 1 slideInFromBottom;
 }
 
-@keyframes slideInFromRight {
+/* @keyframes changeSize {
+    from {font-size: 4rem}
+    to {font-size: 3rem}
+  } */
+
+@keyframes slideInFromBottom {
     0% {
-      transform: translateX(200%);
+      transform: translateY(200%);
     }
     100% {
-      transform: translateX(0);
+      transform: translateY(0);
+    }
+  }  
+
+@media screen and (min-width: 800px){
+    .intro-mobile {
+      display: none;
+    }
+  }
+
+@media screen and (max-width: 800px){
+    .intro {
+      display: none;
     }
   }
