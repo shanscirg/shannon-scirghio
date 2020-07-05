@@ -16,11 +16,13 @@ export default function AboutPrev() {
             </Row>
             <Row
             >
-                <AboutImage
-                    callAnimClass='call-animation-about'
-                    image={shanImg}
-                    image2={shanImg}
-                />
+                <Col xs={12} lg={12}>
+                    <AboutImage
+                        callAnimClass='call-animation'
+                        image={shanImg}
+                        image2={shanImg}
+                    />
+                </Col>
             </Row>
             <Row
                 style={{
