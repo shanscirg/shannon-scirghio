@@ -41,8 +41,8 @@ export default function ProjectCard({ imageSrc, siteName, liveSite, description,
             </Collapse>
             <button type='button' class='myBtn' style={{ padding: '3px 8px', fontSize: '14px', marginTop: '10px' }} onClick={() => setOpen(!open)} aria-controls='collapse-text'
                 aria-expanded={open}>
-                Read {open ? 'Less' : 'More'}
+                Read {open ? <>Less <i class="fas fa-chevron-up"></i></> : <>More <i class="fas fa-chevron-down"></i></> }
             </button>
-        </Col >
+        </Col>
     )
 }

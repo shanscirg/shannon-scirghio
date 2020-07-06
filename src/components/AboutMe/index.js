@@ -1,11 +1,10 @@
 import React from 'react';
 import { Row, Col, Image } from 'react-bootstrap';
 import './style.css';
-import mern from '../../utils/images/mern.png';
+import mern from '../../utils/images/mern.jpeg';
 import positive2 from '../../utils/images/positive2.jpg';
 import resume from '../../utils/ShannonScirghio_Resume.pdf';
 import shanImg from '../../utils/images/shannonAbout.JPG';
-import shannonBnW from '../../utils/images/shan4.JPG';
 import AboutImage from '../../components/Image';
 
 
