@@ -6,6 +6,10 @@ import linkedin from '../../utils/images/linkedin.png';
 import github from '../../utils/images/github.png';
 import gmail from '../../utils/images/gmail.png';
 import resume from '../../utils/images/resume.png';
+import linkedinHome from '../../utils/images/linkedin-home.png';
+import githubHome from '../../utils/images/github-home.png';
+import gmailHome from '../../utils/images/gmail-home.png';
+import resumeHome from '../../utils/images/resume-home.png';
 import resumePdf from '../../utils/ShannonScirghio_Resume.pdf';
 
 export default function ContactMenu() {
@@ -13,16 +17,16 @@ export default function ContactMenu() {
     return (
         <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap' }}>
             <a target='_blank' rel="noopener noreferrer" href='https://www.linkedin.com/in/shanscirg'>
-                <Image className={location.pathname !== '/Contact' ? 'contact-img-home' : 'contact-img'} src={linkedin}></Image>
+                <Image className={location.pathname !== '/Contact' ? 'contact-img-home' : 'contact-img'} src={location.pathname !== '/Contact' ? linkedinHome : linkedin}></Image>
             </a>
             <a target='_blank' rel="noopener noreferrer" href='mailto:shanscirg7@gmail.com'>
-                <Image className={location.pathname !== '/Contact' ? 'contact-img-home-gmail' : 'contact-img-gmail'} src={gmail}></Image>
+                <Image className={location.pathname !== '/Contact' ? 'contact-img-home-gmail' : 'contact-img-gmail'} src={location.pathname !== '/Contact' ? gmailHome : gmail}></Image>
             </a>
             <a target='_blank' rel="noopener noreferrer" href='https://github.com/shanscirg'>
-                <Image className={location.pathname !== '/Contact' ? 'contact-img-home' : 'contact-img'} src={github}></Image>
+                <Image className={location.pathname !== '/Contact' ? 'contact-img-home' : 'contact-img'} src={location.pathname !== '/Contact' ? githubHome : github}></Image>
             </a>
             <a target='_blank' rel="noopener noreferrer" href={resumePdf}>
-                <Image className={location.pathname !== '/Contact' ? 'contact-img-home' : 'contact-img'} src={resume}></Image>
+                <Image className={location.pathname !== '/Contact' ? 'contact-img-home' : 'contact-img'} src={location.pathname !== '/Contact' ? resumeHome : resume}></Image>
             </a>
         </div>
     )

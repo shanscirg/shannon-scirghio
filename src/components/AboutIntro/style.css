@@ -27,11 +27,6 @@
     animation: 1.5s ease-out 0s 1 slideInFromBottom;
 }
 
-/* @keyframes changeSize {
-    from {font-size: 4rem}
-    to {font-size: 3rem}
-  } */
-
 @keyframes slideInFromRight {
     0% {
       transform: translateX(200%);
