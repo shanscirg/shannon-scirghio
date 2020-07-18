@@ -10,8 +10,6 @@ export default ({ children }) => {
     const [loading, setLoading] = useState(false);
 
     return <MyContext.Provider
-        // value={{ isMenuOpen: menuOpenState, toggleMenu: () => setMenuOpenState(!menuOpenState), stateChangeHandler: (newState) => setMenuOpenState(newState.isOpen), activeBurger, setActiveBurger,  loading, setLoading }}>
-        // {children}
         value={{ menuOpenState, setMenuOpenState, stateChangeHandler: (newState) => setMenuOpenState(newState.isOpen), activeBurger, setActiveBurger, loading, setLoading }}>
         {children}
     </MyContext.Provider>
