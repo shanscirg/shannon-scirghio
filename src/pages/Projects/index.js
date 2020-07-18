@@ -7,10 +7,10 @@ import projects from './projects';
 
 export default function Projects() {
 
-    const { isMenuOpen, toggleMenu } = useContext(MyContext)
+    const { menuOpenState, setMenuOpenState } = useContext(MyContext)
 
     useEffect(() => {
-        isMenuOpen && toggleMenu();
+        menuOpenState && setMenuOpenState(!menuOpenState);
         window.scrollTo(0, 0);
     }, []);
 
@@ -32,15 +32,7 @@ export default function Projects() {
                 >
                     {projects.map(project => (
                         <ProjectCard
-                            imageSrc={project.image}
-                            siteName={project.name}
-                            liveSite={project.href}
-                            description={project.description}
-                            role={project.role}
-                            techs={project.techs}
-                            githubSite={project.github}
-                            siteLogo={project.icon}
-                            key={project.name}
+                            project={project}
                         />
                     ))}
                 </Row>

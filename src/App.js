@@ -12,15 +12,15 @@ import { MyContext } from '../src/utils/Context';
 
 function App() {
 
-  const { isMenuOpen, toggleMenu } = useContext(MyContext)
+  const { menuOpenState, setMenuOpenState } = useContext(MyContext)
 
   useEffect(() => {
     console.log(document.body);
     document.getElementById('page-wrap').onclick = function () {
       console.log('clicked body!');
-      isMenuOpen && toggleMenu();
+      menuOpenState && setMenuOpenState(!menuOpenState);
     }
-  }, [isMenuOpen]);
+  }, [menuOpenState]);
 
 
   return (

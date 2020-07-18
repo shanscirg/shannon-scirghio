@@ -7,10 +7,10 @@ import { MyContext } from '../../utils/Context';
 
 export default function About() {
 
-    const { isMenuOpen, toggleMenu } = useContext(MyContext)
+    const { menuOpenState, setMenuOpenState } = useContext(MyContext)
 
     useEffect(() => {
-        isMenuOpen && toggleMenu();
+        menuOpenState && setMenuOpenState(!menuOpenState);
         window.scrollTo(0, 0);
     }, []);
 

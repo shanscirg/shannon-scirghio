@@ -8,11 +8,11 @@ import './style.css';
 
 export default function Contact() {
 
-    const { isMenuOpen, toggleMenu } = useContext(MyContext)
+    const { menuOpenState, setMenuOpenState } = useContext(MyContext)
     const location = useLocation();
 
     useEffect(() => {
-        isMenuOpen && toggleMenu();
+        menuOpenState && setMenuOpenState(!menuOpenState);
         window.scrollTo(0, 0);
     }, []);
 

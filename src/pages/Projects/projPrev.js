@@ -25,15 +25,7 @@ export default function ProjPrev() {
             >
                 {firstTwoProj.map(project => (
                     <ProjectCard
-                        imageSrc={project.image}
-                        siteName={project.name}
-                        liveSite={project.href}
-                        description={project.description}
-                        role={project.role}
-                        techs={project.techs}
-                        githubSite={project.github}
-                        siteLogo={project.icon}
-                        key={project.name}
+                        project={project}
                     />
                 ))}
             </Row>

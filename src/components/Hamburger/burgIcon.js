@@ -5,12 +5,12 @@ import { MyContext } from '../../utils/Context';
 export default function BurgIcon() {
 
 
-    const { isMenuOpen } = useContext(MyContext);
+    const { menuOpenState } = useContext(MyContext);
 
 
     return (
         <div className='centerRoot call-animation-burger'>
-            <Hamburger active={isMenuOpen} loading={false} />
+            <Hamburger active={menuOpenState} loading={false} />
         </div>
     )
 }

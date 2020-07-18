@@ -6,7 +6,7 @@ import { MyContext } from '../../utils/Context';
 import BurgIcon from '../Hamburger/burgIcon';
 
 export default function NavMenu() {
-    const ctx = useContext(MyContext)
+    const { menuOpenState, stateChangeHandler } = useContext(MyContext)
 
     return (
         <Menu
@@ -17,8 +17,8 @@ export default function NavMenu() {
             outerContainerId={'outer-container'}
             customBurgerIcon={<BurgIcon />}
             customCrossIcon={<BurgIcon />}
-            isOpen={ctx.isMenuOpen}
-            onStateChange={(state) => ctx.stateChangeHandler(state)}
+            isOpen={menuOpenState}
+            onStateChange={(state) => stateChangeHandler(state)}
         >
             <Link id='home' className='menu-item' to='/'>Home</Link>
             <Link id='about' className='menu-item' to='/About'>About</Link>

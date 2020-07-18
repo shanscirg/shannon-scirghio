@@ -14,7 +14,7 @@ import shannonTree from '../../utils/images/shanTree2.jpeg'
 
 
 export default function Home() {
-    const { isMenuOpen, toggleMenu } = useContext(MyContext)
+    const { menuOpenState, setMenuOpenState } = useContext(MyContext)
     const [show, setShow] = useState({
         itemOne: false,
         itemTwo: false,
@@ -59,7 +59,7 @@ export default function Home() {
 
     useEffect(() => {
         window.scrollTo(0, 0);
-        isMenuOpen && toggleMenu();
+        menuOpenState && setMenuOpenState(!menuOpenState);
     }, []);
 
     return (
