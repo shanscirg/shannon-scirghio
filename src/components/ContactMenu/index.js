@@ -10,7 +10,7 @@ import linkedinHome from '../../utils/images/linkedin-home.png';
 import githubHome from '../../utils/images/github-home.png';
 import gmailHome from '../../utils/images/gmail-home.png';
 import resumeHome from '../../utils/images/resume-home.png';
-import resumePdf from '../../utils/ShannonScirghio_Resume.pdf';
+import resumePdf from '../../utils/Resume_ShannonScirghio.pdf';
 
 export default function ContactMenu() {
     const location = useLocation();
