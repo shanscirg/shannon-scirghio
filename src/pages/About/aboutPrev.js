@@ -41,7 +41,7 @@ export default function AboutPrev() {
                     margin: 'auto',
                     marginTop: '15px'
                 }}>
-                <h4 className='about-me-skills'>HTML5 <strong>|</strong> CSS3/Bootstrap <strong>|</strong> JavaScript <strong>|</strong> Express JS <strong>|</strong> Node JS <strong>|</strong> React JS <strong>|</strong> MongoDB <strong>|</strong> MySQL</h4>
+                <h4 className='about-me-skills'>HTML5 <strong>|</strong> CSS3/Sass/Bootstrap <strong>|</strong> JavaScript <strong>|</strong> Express JS <strong>|</strong> Node JS <strong>|</strong> React JS <strong>|</strong> MongoDB <strong>|</strong> PostgreSQL <strong>|</strong> MySQL</h4>
             </Row>
             <Row
                 style={{

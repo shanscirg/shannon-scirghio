@@ -10,6 +10,8 @@ import employeeSS from '../../utils/images/employeeSS.png';
 import employeeIcon from '../../utils/images/employeeIcon.png';
 import weatherSS from '../../utils/images/weatherSS.png';
 import weatherIcon from '../../utils/images/weatherIcon.png';
+import a1SS from '../../utils/images/a1SS.png';
+import a1icon from '../../utils/images/a1icon.png';
 
 export default [
     {
@@ -31,6 +33,16 @@ export default [
         role: 'I worked on the backend and frontend, developed API routes and AJAX calls to have frontend and backend communicate with data from the MySQL database and localstorage. Wrote Handlebars template files to dynamically generate user results.',
         techs: 'HTML5, CSS3, Bootstrap, JavaScript, MySQL2, Sequelize, Express.js, Node.js, Express Handlebars, Bcrypt JS, Heroku',
         github: 'https://github.com/shanscirg/whats-my-life'
+    },
+    {
+        name: 'A1 Mechanical Services',
+        image: a1SS,
+        icon: a1icon,
+        href: 'https://www.a1msoklahoma.com/',
+        description: 'is an HVAC Service company in Tulsa, OK. This site allows the user to get free quotes and learn more about the company and its services.',
+        role: 'This was a solo project completed at my internship with F5 Web Development.',
+        techs: 'HTML5, CSS3, vanilla JavaScript',
+        github: 'https://github.com/zda17/A1-Mechanical-New'
     },
     {
         name: 'Moodia',

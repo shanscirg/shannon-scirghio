@@ -3,7 +3,7 @@ import { Row, Col, Image } from 'react-bootstrap';
 import './style.css';
 import mern from '../../utils/images/mern.jpeg';
 import positive2 from '../../utils/images/positive2.jpg';
-import resume from '../../utils/Resume_ShannonScirghio.pdf';
+import resume from '../../utils/Scirghio_FrontendSoftwareDev_Aug2020.pdf';
 import shanImg from '../../utils/images/shannonAbout.JPG';
 import AboutImage from '../../components/Image';
 
@@ -44,7 +44,7 @@ export default function AboutMe() {
             </Row>
             <Row>
                 <Col xs={12} lg={6} style={{ marginBottom: '20px' }}>
-                    <h4 className='about-me-skills'>I work with <strong>CSS3/Bootstrap</strong>, <strong>JavaScript</strong>, including <strong>Express.js</strong>, <strong>Node.js</strong>, and <strong>React.js</strong>, and database technologies such as <strong>MongoDB</strong> and <strong>MySQL</strong>.</h4>
+                    <h4 className='about-me-skills'>I work with <strong>CSS3/Sass/Bootstrap</strong>, <strong>JavaScript</strong>, including <strong>Express.js</strong>, <strong>Node.js</strong>, and <strong>React.js</strong>, and database technologies such as <strong>MongoDB</strong>, <strong>PostgreSQL</strong> and <strong>MySQL</strong>.</h4>
                     <Row>
                         <Col xs={12} lg={12}>
                             <Image src={mern} className='mern-image' alt='MERN Stack Development' thumbnail />
