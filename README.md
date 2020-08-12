@@ -6,4 +6,4 @@ I'm a Full Stack Web Developer passionate about delivering optimal design and im
 ## Portfolio Site
 [https://shanscirg.netlify.app/](https://shanscirg.netlify.app/)
 
-![Shannon Scirghio - Portfolio](/src/utils/images/appSS.png)
+![Shannon Scirghio - Portfolio](/public/portfolioSS.png)
