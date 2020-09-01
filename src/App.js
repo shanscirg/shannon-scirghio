@@ -15,9 +15,7 @@ function App() {
   const { menuOpenState, setMenuOpenState } = useContext(MyContext)
 
   useEffect(() => {
-    console.log(document.body);
     document.getElementById('page-wrap').onclick = function () {
-      console.log('clicked body!');
       menuOpenState && setMenuOpenState(!menuOpenState);
     }
   }, [menuOpenState]);

@@ -3,8 +3,6 @@ import { Col, Image, Collapse } from 'react-bootstrap';
 import githubLogo from '../../utils/images/github.png';
 
 export default function ProjectCard(props) {
-    console.log(props);
-    console.log(props.project);
     const [open, setOpen] = useState(false);
 
     const { image, name, href, description, role, techs, github, icon } = props.project
