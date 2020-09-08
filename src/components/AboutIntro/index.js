@@ -8,7 +8,7 @@ export default function AboutIntro() {
         <>
             <div className='intro'>
                 <Row className='mt-4'>
-                    <h1 className='text-center mx-auto d-block about-intro'>Shannon Scirghio</h1>
+                    <h2 className='text-center mx-auto d-block about-intro'>Shannon Scirghio</h2>
                 </Row>
                 <Row className='mb-3'>
                     <h3 className='text-center mx-auto d-block about-intro words'>Developer | Innovator | Optimist</h3>

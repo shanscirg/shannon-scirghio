@@ -11,7 +11,7 @@ export default function AboutPrev() {
         <>
             <Row className='about-title'>
                 <Col xs={12} lg={12}>
-                    <h1 className='about-me-title'>About Me</h1>
+                    <h3 className='about-me-title'>About Me</h3>
                 </Col>
             </Row>
             <Row

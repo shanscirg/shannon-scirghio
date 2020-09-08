@@ -12,7 +12,7 @@ export default function ProjPrev() {
         <>
             <Row className='about-title'>
                 <Col xs={12} lg={12}>
-                    <h1 className='about-me-title'>My Projects</h1>
+                    <h3 className='about-me-title'>My Projects</h3>
                 </Col>
             </Row>
             <Row
