@@ -8,7 +8,7 @@ export default function AboutImage({ callAnimClass, image, image2 }) {
         <div className={callAnimClass}>
             <Image
                 src={image}
-                onMouseOver={e => (e.currentTarget.src = image2)} onMouseOut={e => (e.currentTarget.src = image)} className='mx-auto d-block prof-img' fluid />
+                onMouseOver={e => (e.currentTarget.src = image2)} onMouseOut={e => (e.currentTarget.src = image)} className='mx-auto d-block prof-img' alt='Photo of Shannon' fluid />
         </div>
     )
 }

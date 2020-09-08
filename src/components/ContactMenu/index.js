@@ -17,16 +17,16 @@ export default function ContactMenu() {
     return (
         <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap' }}>
             <a target='_blank' rel="noopener noreferrer" href='https://www.linkedin.com/in/shanscirg'>
-                <Image className={location.pathname !== '/Contact' ? 'contact-img-home' : 'contact-img'} src={location.pathname !== '/Contact' ? linkedinHome : linkedin}></Image>
+                <Image className={location.pathname !== '/Contact' ? 'contact-img-home' : 'contact-img'} src={location.pathname !== '/Contact' ? linkedinHome : linkedin} alt='LinkedIn'></Image>
             </a>
             <a target='_blank' rel="noopener noreferrer" href='mailto:shanscirg7@gmail.com'>
-                <Image className={location.pathname !== '/Contact' ? 'contact-img-home-gmail' : 'contact-img-gmail'} src={location.pathname !== '/Contact' ? gmailHome : gmail}></Image>
+                <Image className={location.pathname !== '/Contact' ? 'contact-img-home-gmail' : 'contact-img-gmail'} src={location.pathname !== '/Contact' ? gmailHome : gmail} alt='Gmail'></Image>
             </a>
             <a target='_blank' rel="noopener noreferrer" href='https://github.com/shanscirg'>
-                <Image className={location.pathname !== '/Contact' ? 'contact-img-home' : 'contact-img'} src={location.pathname !== '/Contact' ? githubHome : github}></Image>
+                <Image className={location.pathname !== '/Contact' ? 'contact-img-home' : 'contact-img'} src={location.pathname !== '/Contact' ? githubHome : github} alt='GitHub'></Image>
             </a>
             <a target='_blank' rel="noopener noreferrer" href={resumePdf}>
-                <Image className={location.pathname !== '/Contact' ? 'contact-img-home' : 'contact-img'} src={location.pathname !== '/Contact' ? resumeHome : resume}></Image>
+                <Image className={location.pathname !== '/Contact' ? 'contact-img-home' : 'contact-img'} src={location.pathname !== '/Contact' ? resumeHome : resume} alt='Resume'></Image>
             </a>
         </div>
     )

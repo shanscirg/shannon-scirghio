@@ -16,11 +16,11 @@ export default function ProjectCard(props) {
             </div>
             <div className='links' style={{ marginTop: '10px' }}>
                 <a target='_blank' rel='noopener noreferrer' href={github} style={{ marginRight: '15px' }}>
-                    <Image src={githubLogo} style={{ height: '20px', width: '20px', marginRight: '3px' }} />
+                    <Image src={githubLogo} alt='GitHub Logo' style={{ height: '20px', width: '20px', marginRight: '3px' }} />
                     GitHub
                 </a>
                 <a target='_blank' rel='noopener noreferrer' href={href}>
-                    <Image src={icon} style={{ height: '20px', width: '20px', marginRight: '3px' }} />
+                    <Image src={icon} alt='Project Logo' style={{ height: '20px', width: '20px', marginRight: '3px' }} />
                     {name}
                 </a>
             </div>
