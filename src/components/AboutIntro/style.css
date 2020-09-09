@@ -2,10 +2,12 @@
     color: white;
     font-family: 'Courier New', Courier, monospace;
     font-size: 50px;
+    font-display: swap;
 }
 
 .words {
     font-size: 26px;
+    font-display: swap;
 }
 
 .slideIn1, .slideIn2, .slideIn3 {

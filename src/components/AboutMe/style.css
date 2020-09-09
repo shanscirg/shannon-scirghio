@@ -14,12 +14,14 @@
     color: white;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
+    font-display: swap;
 }
 
 .about-me-skills {
     color: white;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
+    font-display: swap;
 }
 
 .mern-image {
@@ -53,6 +55,7 @@
     color: white;
     font-family: 'Courier New', Courier, monospace;
     font-size: 60px;
+    font-display: swap;
     display: inline-block;
     margin-top: -20px;
 }
@@ -61,6 +64,7 @@
     color: white;
     font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
+    font-display: swap;
     display: inline-block;
 }
 
