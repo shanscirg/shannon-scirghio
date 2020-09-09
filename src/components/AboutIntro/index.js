@@ -6,15 +6,15 @@ export default function AboutIntro() {
 
     return (
         <>
-            <div className='intro'>
+            <section className='intro'>
                 <Row className='mt-4'>
                     <h2 className='text-center mx-auto d-block about-intro'>Shannon Scirghio</h2>
                 </Row>
                 <Row className='mb-3'>
                     <h3 className='text-center mx-auto d-block about-intro words'>Developer | Innovator | Optimist</h3>
                 </Row>
-            </div>
-            <div className='intro-mobile'>
+            </section>
+            <section className='intro-mobile'>
                 <Row className='mt-4'>
                     <h1 className='text-center mx-auto d-block about-intro'>Shannon Scirghio</h1>
                 </Row>
@@ -27,7 +27,7 @@ export default function AboutIntro() {
                 <Row className='slideIn3'>
                     <h3 className='text-center mx-auto d-block about-intro words'>&raquo; Optimist &laquo;</h3>
                 </Row>
-            </div>
+            </section>
         </>
     )
 }
