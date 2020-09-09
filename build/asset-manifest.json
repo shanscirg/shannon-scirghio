@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.a7d74fd7.chunk.css",
+    "main.css": "/static/css/main.03cf290f.chunk.css",
     "main.js": "/static/js/main.f249e422.chunk.js",
     "main.js.map": "/static/js/main.f249e422.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4f418c66.js",
@@ -8,9 +8,9 @@
     "static/js/2.ddbf632c.chunk.js": "/static/js/2.ddbf632c.chunk.js",
     "static/js/2.ddbf632c.chunk.js.map": "/static/js/2.ddbf632c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ad2429ec980be3356fab9d42c756a69c.js": "/precache-manifest.ad2429ec980be3356fab9d42c756a69c.js",
+    "precache-manifest.2e058fe22c0226245d066cfa87b702bf.js": "/precache-manifest.2e058fe22c0226245d066cfa87b702bf.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.a7d74fd7.chunk.css.map": "/static/css/main.a7d74fd7.chunk.css.map",
+    "static/css/main.03cf290f.chunk.css.map": "/static/css/main.03cf290f.chunk.css.map",
     "static/js/2.ddbf632c.chunk.js.LICENSE.txt": "/static/js/2.ddbf632c.chunk.js.LICENSE.txt",
     "static/media/Scirghio_FrontendSoftwareDev_Aug2020.pdf": "/static/media/Scirghio_FrontendSoftwareDev_Aug2020.300f3233.pdf",
     "static/media/a1SS.png": "/static/media/a1SS.134df52f.png",
@@ -33,7 +33,7 @@
   "entrypoints": [
     "static/js/runtime-main.4f418c66.js",
     "static/js/2.ddbf632c.chunk.js",
-    "static/css/main.a7d74fd7.chunk.css",
+    "static/css/main.03cf290f.chunk.css",
     "static/js/main.f249e422.chunk.js"
   ]
 }
