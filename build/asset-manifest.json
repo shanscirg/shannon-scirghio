@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.03cf290f.chunk.css",
+    "main.js": "/static/js/main.f249e422.chunk.js",
+    "main.js.map": "/static/js/main.f249e422.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.4f418c66.js",
+    "runtime-main.js.map": "/static/js/runtime-main.4f418c66.js.map",
+    "static/js/2.ddbf632c.chunk.js": "/static/js/2.ddbf632c.chunk.js",
+    "static/js/2.ddbf632c.chunk.js.map": "/static/js/2.ddbf632c.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.2e058fe22c0226245d066cfa87b702bf.js": "/precache-manifest.2e058fe22c0226245d066cfa87b702bf.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.03cf290f.chunk.css.map": "/static/css/main.03cf290f.chunk.css.map",
+    "static/js/2.ddbf632c.chunk.js.LICENSE.txt": "/static/js/2.ddbf632c.chunk.js.LICENSE.txt",
+    "static/media/Scirghio_FrontendSoftwareDev_Aug2020.pdf": "/static/media/Scirghio_FrontendSoftwareDev_Aug2020.300f3233.pdf",
+    "static/media/a1SS.png": "/static/media/a1SS.134df52f.png",
+    "static/media/App.css": "/static/media/background2.79f9adf9.jpeg",
+    "static/media/burgerSS.png": "/static/media/burgerSS.91eddd88.png",
+    "static/media/employeeSS.png": "/static/media/employeeSS.d3885310.png",
+    "static/media/github.png": "/static/media/github.041461f7.png",
+    "static/media/gmail.png": "/static/media/gmail.5982edea.png",
+    "static/media/linkedin.png": "/static/media/linkedin.c0b49a1c.png",
+    "static/media/moodiaSS.png": "/static/media/moodiaSS.20cd3a62.png",
+    "static/media/resume.png": "/static/media/resume.80e396e8.png",
+    "static/media/shan.jpeg": "/static/media/shan.d935b765.jpeg",
+    "static/media/shannon.JPG": "/static/media/shannon.d39a8b86.JPG",
+    "static/media/shannonAbout.JPG": "/static/media/shannonAbout.2c8835de.JPG",
+    "static/media/shantree.jpg": "/static/media/shantree.acc9718d.jpg",
+    "static/media/slangSS.png": "/static/media/slangSS.14831038.png",
+    "static/media/weatherSS.png": "/static/media/weatherSS.6fad7bc3.png",
+    "static/media/whatsSS.png": "/static/media/whatsSS.e58b862a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4f418c66.js",
+    "static/js/2.ddbf632c.chunk.js",
+    "static/css/main.03cf290f.chunk.css",
+    "static/js/main.f249e422.chunk.js"
+  ]
+}
