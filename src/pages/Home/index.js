@@ -9,7 +9,7 @@ import { MyContext } from '../../utils/Context';
 import styled from "styled-components";
 import './style.css';
 import shannon from '../../utils/images/shannon.JPG';
-import shannonTree from '../../utils/images/shanTree2.jpeg'
+import shannonTree from '../../utils/images/shantree.jpg'
 
 
 
