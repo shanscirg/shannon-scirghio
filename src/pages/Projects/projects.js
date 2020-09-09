@@ -1,4 +1,4 @@
-import slangSS from '../../utils/images/slangSS2.png';
+import slangSS from '../../utils/images/slangSS.png';
 import slangFavicon from '../../utils/images/slangFavicon.png';
 import whatsSS from '../../utils/images/whatsSS.png';
 import whatsFav from '../../utils/images/whatsFav2.png';

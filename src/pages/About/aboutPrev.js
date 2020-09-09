@@ -29,7 +29,7 @@ export default function AboutPrev() {
                     display: 'flex',
                     justifyContent: 'center',
                     alignItems: 'center',
-                    marginTop: '15px',
+                    marginTop: '25px',
                     marginLeft: '-7px',
                     marginRight: '-7px'
                 }}
