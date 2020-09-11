@@ -1,6 +1,6 @@
 import React from 'react';
 import { Row, Col, Image } from 'react-bootstrap';
-import shanImg from '../../utils/images/shan.jpeg';
+import shanImg from '../../utils/images/shan.webp';
 import ButtonComp from '../../components/Button';
 import AboutImage from '../../components/Image';
 

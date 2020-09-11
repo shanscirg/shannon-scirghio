@@ -3,7 +3,7 @@ import { Image } from 'react-bootstrap';
 import { useLocation } from 'react-router-dom';
 import './style.css';
 import linkedin from '../../utils/images/linkedin.png';
-import github from '../../utils/images/github.png';
+import github from '../../utils/images/github.webp';
 import gmail from '../../utils/images/gmail.png';
 import resume from '../../utils/images/resume.png';
 import linkedinHome from '../../utils/images/linkedin-home.png';

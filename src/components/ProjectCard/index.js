@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Col, Image, Collapse } from 'react-bootstrap';
-import githubLogo from '../../utils/images/github.png';
+import githubLogo from '../../utils/images/github.webp';
 
 export default function ProjectCard(props) {
     const [open, setOpen] = useState(false);

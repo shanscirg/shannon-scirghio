@@ -1,17 +1,3 @@
-/* body {
-  /* The image used */
-  /* background-image: url(./utils/images/background.jpg); */
-  /* background-image: url(./utils/images/background2.jpeg); */
-  /* Full height */
-  /* height: 100vh;  */
-  /* background-attachment: fixed; */
-  /* Center and scale the image nicely */
-  /* background-position: center center; */
-  /* background-repeat: no-repeat; */
-  /* background-size: cover; */
-  /* background-color: rgba(16, 133, 133, 0.6); */
-/* } */ 
-
 body {
   background: transparent;
 } 
@@ -25,7 +11,7 @@ body:after {
   bottom: 0;
   z-index: -1;
   display: block;
-  background-image: url(./utils/images/background2.jpeg);
+  background-image: url(./utils/images/background2.webp);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -50,7 +36,6 @@ body::before {
 }
 
 #page-wrap {
-  /* margin-bottom: 100px; */
   height: 100%;
   padding: 3em 2em;
   text-align: center;
