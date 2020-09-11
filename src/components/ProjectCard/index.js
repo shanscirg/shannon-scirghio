@@ -9,11 +9,9 @@ export default function ProjectCard(props) {
 
     return (
         <Col className='project-card' style={{ minHeight: '420px', overflow: 'auto', border: '1px solid black', padding: '20px', margin: '30px', boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)', background: 'rgba(34, 49, 63, 0.8)' }} xs={12} lg={5}>
-            <figure className='image'>
-                <a target='_blank' rel='noopener noreferrer' href={href}>
-                    <Image src={image} alt={name} style={{ height: '30%', width: '100%' }} />
-                </a>
-            </figure>
+            <a target='_blank' className='image' rel='noopener noreferrer' href={href}>
+                <Image src={image} alt={name} style={{ height: '30%', width: '100%' }} />
+            </a>
             <section className='links' style={{ marginTop: '10px' }}>
                 <a target='_blank' rel='noopener noreferrer' href={github} style={{ marginRight: '15px' }}>
                     <Image src={githubLogo} alt='GitHub Logo' style={{ height: '20px', width: '20px', marginRight: '3px' }} />
