@@ -3,7 +3,7 @@ import { Row, Col, Image } from 'react-bootstrap';
 import './style.css';
 import mern from '../../utils/images/mern.jpeg';
 import positive2 from '../../utils/images/positive2.jpg';
-import resume from '../../utils/Scirghio_FrontendSoftwareDev_Aug2020.pdf';
+import resume from '../../utils/Scirghio_FrontendSoftwareDev_Sept2020.pdf';
 import shanImg from '../../utils/images/shannonAbout.JPG';
 import AboutImage from '../../components/Image';
 
