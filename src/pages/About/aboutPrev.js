@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col, Image } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 import shanImg from '../../utils/images/shan.webp';
 import ButtonComp from '../../components/Button';
 import AboutImage from '../../components/Image';
@@ -11,7 +11,9 @@ export default function AboutPrev() {
         <>
             <Row className='about-title'>
                 <Col xs={12} lg={12}>
-                    <h3 className='about-me-title'>About Me</h3>
+                    <header>
+                        <h3 className='about-me-title'>About Me</h3>
+                    </header>
                 </Col>
             </Row>
             <Row

@@ -5,10 +5,12 @@ import './style.css';
 export default function AboutIntro() {
 
     return (
-        <>
+        <article>
             <section className='intro'>
                 <Row className='mt-4'>
-                    <h2 className='text-center mx-auto d-block about-intro'>Shannon Scirghio</h2>
+                    <header>
+                        <h2 className='text-center mx-auto d-block about-intro'>Shannon Scirghio</h2>
+                    </header>
                 </Row>
                 <Row className='mb-3'>
                     <h3 className='text-center mx-auto d-block about-intro words'>Developer | Innovator | Optimist</h3>
@@ -28,6 +30,6 @@ export default function AboutIntro() {
                     <h3 className='text-center mx-auto d-block about-intro words'>&raquo; Optimist &laquo;</h3>
                 </Row>
             </section>
-        </>
+        </article>
     )
 }

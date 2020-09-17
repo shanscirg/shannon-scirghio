@@ -12,7 +12,9 @@ export default function ProjPrev() {
         <>
             <Row className='about-title'>
                 <Col xs={12} lg={12}>
-                    <h3 className='about-me-title'>My Projects</h3>
+                    <header>
+                        <h3 className='about-me-title'>My Projects</h3>
+                    </header>
                 </Col>
             </Row>
             <Row
@@ -23,9 +25,10 @@ export default function ProjPrev() {
                     'margin': '0'
                 }}
             >
-                {firstTwoProj.map(project => (
+                {firstTwoProj.map((project, index) => (
                     <ProjectCard
                         project={project}
+                        key={index}
                     />
                 ))}
             </Row>
@@ -37,10 +40,10 @@ export default function ProjPrev() {
                     marginTop: '50px'
                 }}
             >
-                    <ButtonComp
-                        text='See More Projects'
-                        path='/Projects'
-                    />
+                <ButtonComp
+                    text='See More Projects'
+                    path='/Projects'
+                />
             </Row>
         </>
     )

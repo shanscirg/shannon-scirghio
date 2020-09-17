@@ -10,24 +10,38 @@ import AboutImage from '../../components/Image';
 
 export default function AboutMe() {
 
+    const aboutWrapStyle = {
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center'
+    }
+
+    const aboutImgStyle = {
+        height: '50%',
+        width: '50%',
+        margin: 'auto'
+    }
+
     return (
         <>
             <Row className='about-title'>
                 <Col xs={12} lg={12}>
-                    <h1 className='about-me-title'>Who Am I?</h1>
+                    <header>
+                        <h1 className='about-me-title'>Who Am I?</h1>
+                    </header>
                 </Col>
             </Row>
             <Row>
                 <Col xs={12} lg={12}>
                     <h4 className='about-me'>I'm a foreign language teacher entering the beautiful world that is web development. I recently completed the <strong>Full Stack Web Development</strong> boot camp from the University of Arizona.</h4>
-                    <section style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+                    <section style={aboutWrapStyle}>
                         <Col xs={12} lg={12}>
                             <AboutImage
                                 callAnimClass='call-animation-about'
                                 image={shanImg}
                                 image2={shanImg}
-                                style={{height: '50%', width: '50%', margin: 'auto'}}
-                                />
+                                style={aboutImgStyle}
+                            />
                         </Col>
                     </section>
                     <h4 className='about-me'>I am excited to join a <strong>quality-driven</strong>, <strong>collaborative work environment</strong> where I can leverage my background and skill set!</h4>

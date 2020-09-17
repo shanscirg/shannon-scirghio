@@ -14,8 +14,15 @@ import resumePdf from '../../utils/Scirghio_FrontendSoftwareDev_Sept2020.pdf';
 
 export default function ContactMenu() {
     const location = useLocation();
+
+    const style = {
+        display: 'flex',
+        justifyContent: 'center',
+        flexWrap: 'wrap'
+    }
+
     return (
-        <article style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap' }}>
+        <article style={style}>
             <a target='_blank' rel="noopener noreferrer" href='https://www.linkedin.com/in/shanscirg'>
                 <Image className={location.pathname !== '/Contact' ? 'contact-img-home' : 'contact-img'} src={location.pathname !== '/Contact' ? linkedinHome : linkedin} alt='LinkedIn'></Image>
             </a>

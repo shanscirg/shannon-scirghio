@@ -14,25 +14,34 @@ export default function Projects() {
         window.scrollTo(0, 0);
     }, []);
 
+    const rowStyle = {
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        'margin': '0'
+    }
+
+    const marginTop = {
+        marginTop: '50px'
+    }
+
     return (
         <>
-            <Container fluid='md' className='home-container' style={{ marginTop: '50px' }}>
+            <Container fluid='md' className='home-container' style={marginTop}>
                 <Row className='about-title'>
                     <Col xs={12} lg={12}>
-                        <h1 className='about-me-title'>My Projects</h1>
+                        <header>
+                            <h1 className='about-me-title'>My Projects</h1>
+                        </header>
                     </Col>
                 </Row>
                 <Row
-                    style={{
-                        display: 'flex',
-                        justifyContent: 'center',
-                        alignItems: 'center',
-                        'margin': '0'
-                    }}
+                    style={rowStyle}
                 >
-                    {projects.map(project => (
+                    {projects.map((project, index) => (
                         <ProjectCard
                             project={project}
+                            key={index}
                         />
                     ))}
                 </Row>

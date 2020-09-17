@@ -14,9 +14,14 @@ export default function About() {
         window.scrollTo(0, 0);
     }, []);
 
+    const containerStyle = {
+        marginTop: '75px', 
+        marginBottom: '50px'
+    }
+
     return (
         <>
-            <Container fluid='md' style={{ marginTop: '75px', marginBottom: '50px' }}>
+            <Container fluid='md' style={containerStyle}>
                 <AboutMe />
             </Container>
             <ButtonComp

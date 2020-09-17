@@ -18,7 +18,7 @@ export default function Contact() {
 
     return (
         <>
-            <Container fluid='md' style={{marginBottom: '50px'}}>
+            <Container fluid='md' style={{ marginBottom: '50px' }}>
                 <Row
                     style={{
                         textAlign: 'center',
@@ -26,7 +26,9 @@ export default function Contact() {
                     }}
                 >
                     <Col xs={12} lg={12}>
-                        <h1 className='about-me-title'>Contact Me!</h1>
+                        <header>
+                            <h1 className='about-me-title'>Contact Me!</h1>
+                        </header>
                     </Col>
                 </Row>
                 <Row className='about-title-2'>
