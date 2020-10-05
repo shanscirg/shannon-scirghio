@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "caf27a62bc975d113d6dc6a39aa7bc70",
+    "revision": "816eed5ac607303352c4b90bb31b1c6c",
     "url": "/index.html"
   },
   {
-    "revision": "9552cdc7d4885359c8d9",
+    "revision": "826563ee4f3ec514937e",
     "url": "/static/css/main.cf88b625.chunk.css"
   },
   {
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.91ace6d6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9552cdc7d4885359c8d9",
-    "url": "/static/js/main.fee929af.chunk.js"
+    "revision": "826563ee4f3ec514937e",
+    "url": "/static/js/main.4863c174.chunk.js"
   },
   {
     "revision": "6699a56fa02b5eb181bd",
     "url": "/static/js/runtime-main.4f418c66.js"
   },
   {
-    "revision": "01f462b4f182d3bf8d8806fa54aaa745",
-    "url": "/static/media/Scirghio_FrontendSoftwareDev_Sept2020.01f462b4.pdf"
+    "revision": "3d235de8f02e2964bcd36e95e26bae37",
+    "url": "/static/media/Scirghio_FrontendSoftwareDev_Oct2020.3d235de8.pdf"
   },
   {
     "revision": "134df52f63d64865077e4266cc36f3b2",
