@@ -36,7 +36,7 @@ export default function AboutPrev() {
                     marginRight: '-7px'
                 }}
             >
-                <h4 className='about-me'>I'm a foreign language teacher entering the beautiful world that is web development. I recently completed the <strong>Full Stack Web Development</strong> boot camp from the University of Arizona.</h4>
+                <h4 className='about-me'>I'm a foreign language teacher entering the beautiful world that is web development. I completed the <strong>Full Stack Web Development</strong> boot camp from the University of Arizona.</h4>
             </Row>
             <Row
                 style={{

@@ -21,7 +21,7 @@ export default [
         image: mystripesSS,
         icon: mystripesIcon,
         href: 'https://mystripes-client.herokuapp.com/',
-        description: 'is an e-commerce clothing shop. Users can browse products, add them to a cart, customize their cart based on quantity, enter shipping information, and complete the payment process. Users can also contact My Stripes with any comments or questions they may have.',
+        description: 'is an e-commerce clothing shop where users can browse products, add them to a cart, and complete the payment process. Developed by F5 Web Development interns.',
         role: 'I worked mostly with the frontend, building out React JS components using hooks. My main focus was the navbar, the cart page, and the checkout page including payment functionality using the React Stripe JS API. I also worked on some backend features with the payment and sending emails to the user.',
         techs: 'HTML5, CSS3, SCSS, JavaScript, React.js, React hooks, PostgreSQL, Express.js, Node.js, React Burger Menu, Axios, React Stripe JS, Stripe JS, React Router Dom, Heroku',
         github: 'https://github.com/zda17/MyStripesShop---Client'

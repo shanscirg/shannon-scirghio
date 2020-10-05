@@ -3,7 +3,7 @@ import { Row, Col, Image } from 'react-bootstrap';
 import './style.css';
 import mern from '../../utils/images/mern.jpeg';
 import positive2 from '../../utils/images/positive2.jpg';
-import resume from '../../utils/Scirghio_FrontendSoftwareDev_Sept2020.pdf';
+import resume from '../../utils/Scirghio_FrontendSoftwareDev_Oct2020.pdf';
 import shanImg from '../../utils/images/shannonAbout.JPG';
 import AboutImage from '../../components/Image';
 
@@ -33,7 +33,7 @@ export default function AboutMe() {
             </Row>
             <Row>
                 <Col xs={12} lg={12}>
-                    <h4 className='about-me'>I'm a foreign language teacher entering the beautiful world that is web development. I recently completed the <strong>Full Stack Web Development</strong> boot camp from the University of Arizona.</h4>
+                    <h4 className='about-me'>I'm a foreign language teacher entering the beautiful world that is web development. I completed the <strong>Full Stack Web Development</strong> boot camp from the University of Arizona.</h4>
                     <section style={aboutWrapStyle}>
                         <Col xs={12} lg={12}>
                             <AboutImage
