@@ -1,3 +1,5 @@
+import mystripesSS from '../../utils/images/mystripesSS.webp';
+import mystripesIcon from '../../utils/images/mystripesIcon.webp';
 import slangSS from '../../utils/images/slangSS.webp';
 import slangFavicon from '../../utils/images/slangFavicon.png';
 import whatsSS from '../../utils/images/whatsSS.webp';
@@ -14,6 +16,16 @@ import a1SS from '../../utils/images/a1SS.png';
 import a1icon from '../../utils/images/a1icon.png';
 
 export default [
+    {
+        name: 'My Stripes',
+        image: mystripesSS,
+        icon: mystripesIcon,
+        href: 'https://mystripes-client.herokuapp.com/',
+        description: 'is an e-commerce clothing shop. Users can browse products, add them to a cart, customize their cart based on quantity, enter shipping information, and complete the payment process. Users can also contact My Stripes with any comments or questions they may have.',
+        role: 'I worked mostly with the frontend, building out React JS components using hooks. My main focus was the navbar, the cart page, and the checkout page including payment functionality using the React Stripe JS API. I also worked on some backend features with the payment and sending emails to the user.',
+        techs: 'HTML5, CSS3, SCSS, JavaScript, React.js, React hooks, PostgreSQL, Express.js, Node.js, React Burger Menu, Axios, React Stripe JS, Stripe JS, React Router Dom, Heroku',
+        github: 'https://github.com/zda17/MyStripesShop---Client'
+    },
     {
         name: 'Slanguage',
         image: slangSS,
